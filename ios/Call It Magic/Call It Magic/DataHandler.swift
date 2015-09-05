@@ -11,37 +11,18 @@ import Alamofire;
 
 class DataHandler: AnyObject {
   
-  static func getBatch() -> Array<LocationObject> {
-    var json = getJSON();
-    var locations = Array<LocationObject>();
-    var actualJSON = json["places"] as! Array<Dictionary<String, AnyObject>>;
-    for dictionary in actualJSON {
-      var location = LocationObject(json: dictionary);
-      locations.append(location);
-    }
+
+  static func parseJSON(content : Dictionary<String, AnyObject>) -> Array<LocationObject> {
+    let realContent : Array<AnyObject> = content["hits"] as! Array<AnyObject>;
     
+    var locations = Array<LocationObject>();
+    
+    for dictionary in realContent {
+      var object = LocationObject(json: dictionary as! Dictionary<String, AnyObject>)
+      locations.append(object);
+    }
     return locations;
   }
-  
-  static private func getJSON() -> Dictionary<String, AnyObject> {
-    if let path = NSBundle.mainBundle().pathForResource("test", ofType: "json")
-    {
-      if let jsonData = NSData(contentsOfFile: path, options: .DataReadingMappedIfSafe, error: nil)
-      {
-        if let jsonResult: NSDictionary = NSJSONSerialization.JSONObjectWithData(jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil) as? NSDictionary
-        {
-          print(jsonResult)
-          return jsonResult as! Dictionary<String, AnyObject>;
-        }
-      }
-    }
-    return Dictionary()
-  }
-  
-//  //WARNING: NEED TO WRITE THIS
-//  private func getJSON() -> Dictionary<String, AnyObject> {
-//    return ["hey" : "person"];
-//  }
   
   
 }

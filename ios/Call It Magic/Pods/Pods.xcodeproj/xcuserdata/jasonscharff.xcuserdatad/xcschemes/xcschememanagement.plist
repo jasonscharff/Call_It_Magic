@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Call It Magic-AlgoliaSearch-Client-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Call It Magic-PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>455375DCDBC6F4FCDEF958BA</key>
+		<key>A005FA49AE48922B03801C4B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4DF1EDEA18CDD65ECDE097B6</key>
+		<key>D3A702ECD1757D65A9A7ECBD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6816B72246CF62E984ACE798</key>
+		<key>E3F083AE8BF642856AF50536</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7F65478AC6A10993FE7A3631</key>
+		<key>EF8ED16CD15368839B37A4AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F30D4FD5B8057F82CD259238</key>
 		<dict>
 			<key>primary</key>
 			<true/>

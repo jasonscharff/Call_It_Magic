@@ -10,6 +10,7 @@
 		721900B49E394DBC597E5E0D /* Pods_Call_It_Magic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3C863D55D7822580453AAE /* Pods_Call_It_Magic.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BE70494B1B9B543E000C0F6F /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70494A1B9B543E000C0F6F /* LocationDetailView.swift */; };
 		BE70494D1B9B574C000C0F6F /* AnalyzedLocationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70494C1B9B574C000C0F6F /* AnalyzedLocationObject.swift */; };
+		BE70494F1B9B5CF2000C0F6F /* DetailedTextualInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70494E1B9B5CF2000C0F6F /* DetailedTextualInformationView.swift */; };
 		BE84A5791B9A914C006A852E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A5781B9A914C006A852E /* AppDelegate.swift */; };
 		BE84A57C1B9A914C006A852E /* Call_It_Magic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE84A57A1B9A914C006A852E /* Call_It_Magic.xcdatamodeld */; };
 		BE84A57E1B9A914C006A852E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A57D1B9A914C006A852E /* SearchController.swift */; };
@@ -39,6 +40,7 @@
 		1BCD56F1B390E0925ADDEC34 /* Pods-Call It Magic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Call It Magic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Call It Magic/Pods-Call It Magic.release.xcconfig"; sourceTree = "<group>"; };
 		BE70494A1B9B543E000C0F6F /* LocationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		BE70494C1B9B574C000C0F6F /* AnalyzedLocationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzedLocationObject.swift; sourceTree = "<group>"; };
+		BE70494E1B9B5CF2000C0F6F /* DetailedTextualInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedTextualInformationView.swift; sourceTree = "<group>"; };
 		BE84A5731B9A914C006A852E /* Call It Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Call It Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84A5771B9A914C006A852E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE84A5781B9A914C006A852E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				BE84A5781B9A914C006A852E /* AppDelegate.swift */,
 				BE84A57D1B9A914C006A852E /* SearchController.swift */,
 				BE70494A1B9B543E000C0F6F /* LocationDetailView.swift */,
+				BE70494E1B9B5CF2000C0F6F /* DetailedTextualInformationView.swift */,
 				BEC428631B9AF35500DCA4ED /* LocationTableViewCell.swift */,
 				BEC428671B9B01AA00DCA4ED /* DataHandler.swift */,
 				BEC428691B9B044100DCA4ED /* LocationObject.swift */,
@@ -319,6 +322,7 @@
 				BEEFECE91B9AAB6800FD1E92 /* Constants.swift in Sources */,
 				BEC428641B9AF35500DCA4ED /* LocationTableViewCell.swift in Sources */,
 				BE84A57E1B9A914C006A852E /* SearchController.swift in Sources */,
+				BE70494F1B9B5CF2000C0F6F /* DetailedTextualInformationView.swift in Sources */,
 				BE84A57C1B9A914C006A852E /* Call_It_Magic.xcdatamodeld in Sources */,
 				BEC428681B9B01AA00DCA4ED /* DataHandler.swift in Sources */,
 				BE84A5791B9A914C006A852E /* AppDelegate.swift in Sources */,

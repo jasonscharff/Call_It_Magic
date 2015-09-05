@@ -10,15 +10,19 @@ import UIKit
 import PureLayout
 import SnapKit
 import CoreLocation
+import AlgoliaSearch
 
 class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
   //MARK: Class scopes
   var searchbar : SearchBar;
   var tableView : UITableView;
+  var hasAddedTableView = false;
   
   var location : CLLocation = CLLocation();
   
   var dataset = Array<LocationObject>();
+  
+  let client = AlgoliaSearch.Client(appID: "AL4HRJ6LIF", apiKey: "05488451891f97d60d3dd4e89c3e31a3")
   
  private let locationManager = CLLocationManager();
   
@@ -104,6 +108,7 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   }
   
   func addTableView() {
+    hasAddedTableView = true;
     self.view.addSubview(tableView);
     tableView.dataSource = self;
     tableView.delegate = self;
@@ -115,7 +120,7 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
       make.top.equalTo(searchbar.snp_bottom).offset(20);
       make.centerX.equalTo(self.view);
       make.width.equalTo(self.view.frame.size.width - 16);
-      make.bottom.equalTo(self.view.frame.size.height);
+      make.bottom.equalTo(self.view)
     }
   }
   
@@ -130,6 +135,7 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return dataset.count;
   }
+  
   
   //MARK: Scroll View Stuff
   
@@ -149,13 +155,34 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
     })
     
   }
-  //WARNING: Actually make API Call
   func textFieldDidChange(notifcation: NSNotification) {
-    //Make an api call and fetch the results...
-    
-    dataset = DataHandler.getBatch();
-    addTableView();
-    
+    if(!hasAddedTableView) {
+      addTableView();
+    }
+    if(searchbar.textField.text.isEmpty) {
+      self.dataset = [];
+    }
+    else {
+      let index = client.getIndex("prod_magic")
+      let attributesToIndex = ["item_name"]
+      let settings = [
+        "attributesToIndex": attributesToIndex
+      ]
+      index.setSettings(settings, block: { (content, error) -> Void in
+        if let error = error {
+          println("Error when applying settings: \(error)")
+        }
+      })
+      index.search(Query(query: searchbar.textField.text), block: { (content, error) -> Void in
+        if (error != nil) {
+          print(error);
+        }
+        else {
+          self.dataset = DataHandler.parseJSON(content!)
+        }
+      })
+    }
+    self.tableView.reloadData();
   }
   
   func textFieldShouldReturn(textField: UITextField) -> Bool {

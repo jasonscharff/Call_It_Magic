@@ -19,21 +19,21 @@ class LocationTableViewCell: UITableViewCell {
   private var productLabel : UILabel;
   private var distanceLabel : UILabel;
   
+  private var analyzedLocObject : AnalyzedLocationObject = AnalyzedLocationObject();
+  
   
   var storeLabelText : String {
     didSet {
       storeLabel.text = storeLabelText;
+      analyzedLocObject.storeName = storeLabelText;
     }
   }
-  var distanceLabelText : String {
-    didSet {
-      distanceLabel.text = distanceLabelText;
-    }
-  }
+  var distanceLabelText : String;
   
   var productLabelText : String {
     didSet {
       productLabel.text = productLabelText;
+      analyzedLocObject.productName = productLabelText;
     }
   }
   
@@ -59,11 +59,12 @@ class LocationTableViewCell: UITableViewCell {
   
   func setFromData(object : LocationObject, location: CLLocation) {
     setLocation(object.latitude, longitude: object.longitude);
-    self.storeLabel.text = object.storeName;
-    self.productLabel.text = object.productName
-    var placeLoc : CLLocation = CLLocation(latitude: object.latitude, longitude: object.longitude);
-    var distance = location.distanceFromLocation(placeLoc);
-    distance *= 3.28;
+    self.storeLabelText = object.storeName
+    self.productLabelText = object.productName
+    analyzedLocObject.latitude = object.latitude;
+    analyzedLocObject.longitude = object.longitude;
+    calcRoute(object)
+    var distance = analyzedLocObject.distance;
     if(distance >= 5280) {
       distance /= 5280;
       self.distanceLabel.text = String(stringInterpolationSegment: (Double(round(10*distance)/10))) + " miles";
@@ -74,9 +75,39 @@ class LocationTableViewCell: UITableViewCell {
     
   }
   
+  private func calcRoute (object : LocationObject) {
+    
+    let placemark = MKPlacemark(coordinate: CLLocationCoordinate2DMake(object.latitude, object.longitude), addressDictionary: nil);
+    let item = MKMapItem(placemark: placemark);
+    
+    let request = MKDirectionsRequest()
+    request.setSource(MKMapItem.mapItemForCurrentLocation())
+    request.setDestination(item);
+    request.transportType = MKDirectionsTransportType.Automobile;
+    request.requestsAlternateRoutes = false
+    
+    let directions = MKDirections(request: request)
+    var distanceAsDouble: Double = 0;
+    directions.calculateDirectionsWithCompletionHandler({(response:
+      MKDirectionsResponse!, error: NSError!) in
+      
+      if error != nil {
+        // Handle error
+      } else {
+        let route = (response.routes[0] as! MKRoute);
+        let distance : Double = route.distance;
+        let time : Double = route.expectedTravelTime;
+        self.analyzedLocObject.distance = distance * 3.28;
+        self.analyzedLocObject.eta = Int(time/60 + 0.5);
+        
+        }
+      
+    })
+    
+  }
+  
   private func setLocation(latitude : Double, longitude : Double) {
     //Set map
-    map.removeAnnotation(annotation);
     var coord : CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude);
     var span : MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.025, longitudeDelta: 0.025);
     var region : MKCoordinateRegion = MKCoordinateRegion(center: coord, span: span)

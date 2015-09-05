@@ -21,7 +21,10 @@ class LocationDetaiLView : UIViewController {
   //MARK: View States
   override func viewDidLoad() {
     super.viewDidLoad();
+    self.title = locationObject.storeName;
     setLocation(locationObject.latitude, longitude: locationObject.longitude);
+    addTextualInformation()
+    addActions()
   }
   
   //MARK: Set up UI
@@ -35,10 +38,22 @@ class LocationDetaiLView : UIViewController {
     //Set pin
     annotation.coordinate = coord;
     map.addAnnotation(annotation);
+    
+    map.snp_makeConstraints { (make) -> Void in
+      make.top.equalTo(Constants.navbarHeight + 10)
+      make.left.equalTo(10);
+      make.right.equalTo(10);
+      make.height.equalTo((self.view.frame.size.height - CGFloat(Constants.navbarHeight - 10))/3)
+    }
   }
   
   private func addTextualInformation() {
-    
+    var topLabel = UILabel();
+    topLabel.text = locationObject.storeName;
+    topLabel.font = UIFont(name: "HelveticaNeue", size: 20);
+//    topLabel.snp_makeConstraints { (make) -> Void in
+//      make.top.equalTo(<#other: CGFloat#>)
+//    }
   }
   
   private func addActions() {

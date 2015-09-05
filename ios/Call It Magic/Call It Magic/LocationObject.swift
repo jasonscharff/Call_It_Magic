@@ -11,17 +11,17 @@ class LocationObject: AnyObject {
   
   var latitude : Double;
   var longitude : Double;
-  var uuid : String;
   var storeName : String;
   var productName : String;
+  var price : Double;
   
   init(json : Dictionary<String, AnyObject>) {
     latitude = json["lat"] as! Double;
+    println(latitude)
     longitude = json["lng"] as! Double;
-    uuid = json["uuid"] as! String;
-    storeName = json["store_name"] as! String;
-    productName = json["product_name"] as! String;
-    
+    storeName = json["place_name"] as! String;
+    productName = json["item_name"] as! String;
+    price = json["item_price"] as! Double;
   }
   
 }

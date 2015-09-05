@@ -14,13 +14,17 @@ class AnalyzedLocationObject : AnyObject {
   var storeName : String;
   var longitude : Double;
   var latitude : Double;
+  var price : Double;
+  var eta : Int;
   
-  init(distance: Double, productName : String, storeName : String, latitude : Double, longitude : Double) {
+  init(distance: Double, productName : String, storeName : String, latitude : Double, longitude : Double, price : Double, eta: Int) {
     self.distance = distance;
     self.productName = productName;
     self.storeName = storeName;
     self.latitude = latitude;
     self.longitude = longitude;
+    self.price = price;
+    self.eta = eta;
   }
   
   init() {
@@ -29,6 +33,8 @@ class AnalyzedLocationObject : AnyObject {
     storeName = ""
     latitude = 0
     longitude = 0
+    price = 0
+    eta = 0;
   }
 
 }
