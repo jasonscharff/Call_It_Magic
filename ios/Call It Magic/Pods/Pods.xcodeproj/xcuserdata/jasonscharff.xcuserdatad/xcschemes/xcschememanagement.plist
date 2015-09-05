@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Call It Magic-Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Call It Magic-PureLayout.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Call It Magic-SnapKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Call It Magic.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>455375DCDBC6F4FCDEF958BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DF1EDEA18CDD65ECDE097B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6816B72246CF62E984ACE798</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7F65478AC6A10993FE7A3631</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

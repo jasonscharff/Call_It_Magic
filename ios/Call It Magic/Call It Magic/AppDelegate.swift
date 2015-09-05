@@ -16,7 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    
+    var nav = UINavigationController()
+    
+    var firstView = SearchController()
+    nav.viewControllers = [firstView]
+    self.window!.rootViewController = nav
+    nav.navigationBar.barTintColor = Constants.themeColor;
+    self.window?.makeKeyAndVisible()
+    
+    nav.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 24)!, NSForegroundColorAttributeName : Constants.themeGray]
+    
     return true
   }
 
