@@ -27,6 +27,7 @@ class SearchBar : UIView {
     textField.contentVerticalAlignment = UIControlContentVerticalAlignment.Bottom
     textField.placeholder = "shaving cream";
     textField.font = UIFont(name: "HelveticaNeue", size: 40);
+    textField.returnKeyType = UIReturnKeyType.Done;
     super.init(frame: frame)
     var searchImage = UIImageView(image: UIImage(named: "MagnifyingGlass"))
     var line = UIView();

@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		721900B49E394DBC597E5E0D /* Pods_Call_It_Magic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3C863D55D7822580453AAE /* Pods_Call_It_Magic.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		BE70494B1B9B543E000C0F6F /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70494A1B9B543E000C0F6F /* LocationDetailView.swift */; };
+		BE70494D1B9B574C000C0F6F /* AnalyzedLocationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70494C1B9B574C000C0F6F /* AnalyzedLocationObject.swift */; };
 		BE84A5791B9A914C006A852E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A5781B9A914C006A852E /* AppDelegate.swift */; };
 		BE84A57C1B9A914C006A852E /* Call_It_Magic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE84A57A1B9A914C006A852E /* Call_It_Magic.xcdatamodeld */; };
 		BE84A57E1B9A914C006A852E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A57D1B9A914C006A852E /* SearchController.swift */; };
 		BE84A5831B9A914C006A852E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE84A5821B9A914C006A852E /* Images.xcassets */; };
 		BE84A5861B9A914C006A852E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE84A5841B9A914C006A852E /* LaunchScreen.xib */; };
 		BE84A5921B9A914C006A852E /* Call_It_MagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A5911B9A914C006A852E /* Call_It_MagicTests.swift */; };
+		BEC428641B9AF35500DCA4ED /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC428631B9AF35500DCA4ED /* LocationTableViewCell.swift */; };
+		BEC428661B9B012D00DCA4ED /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = BEC428651B9B012D00DCA4ED /* test.json */; };
+		BEC428681B9B01AA00DCA4ED /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC428671B9B01AA00DCA4ED /* DataHandler.swift */; };
+		BEC4286A1B9B044100DCA4ED /* LocationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC428691B9B044100DCA4ED /* LocationObject.swift */; };
 		BEEFECE71B9AA5FA00FD1E92 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFECE61B9AA5FA00FD1E92 /* Extensions.swift */; };
 		BEEFECE91B9AAB6800FD1E92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFECE81B9AAB6800FD1E92 /* Constants.swift */; };
 		BEEFECEB1B9AB81E00FD1E92 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFECEA1B9AB81E00FD1E92 /* SearchBar.swift */; };
@@ -31,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		1BCD56F1B390E0925ADDEC34 /* Pods-Call It Magic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Call It Magic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Call It Magic/Pods-Call It Magic.release.xcconfig"; sourceTree = "<group>"; };
+		BE70494A1B9B543E000C0F6F /* LocationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		BE70494C1B9B574C000C0F6F /* AnalyzedLocationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyzedLocationObject.swift; sourceTree = "<group>"; };
 		BE84A5731B9A914C006A852E /* Call It Magic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Call It Magic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84A5771B9A914C006A852E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE84A5781B9A914C006A852E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +49,10 @@
 		BE84A58B1B9A914C006A852E /* Call It MagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Call It MagicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84A5901B9A914C006A852E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE84A5911B9A914C006A852E /* Call_It_MagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call_It_MagicTests.swift; sourceTree = "<group>"; };
+		BEC428631B9AF35500DCA4ED /* LocationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		BEC428651B9B012D00DCA4ED /* test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		BEC428671B9B01AA00DCA4ED /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		BEC428691B9B044100DCA4ED /* LocationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationObject.swift; sourceTree = "<group>"; };
 		BEEFECE61B9AA5FA00FD1E92 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BEEFECE81B9AAB6800FD1E92 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEEFECEA1B9AB81E00FD1E92 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
@@ -109,6 +121,11 @@
 			children = (
 				BE84A5781B9A914C006A852E /* AppDelegate.swift */,
 				BE84A57D1B9A914C006A852E /* SearchController.swift */,
+				BE70494A1B9B543E000C0F6F /* LocationDetailView.swift */,
+				BEC428631B9AF35500DCA4ED /* LocationTableViewCell.swift */,
+				BEC428671B9B01AA00DCA4ED /* DataHandler.swift */,
+				BEC428691B9B044100DCA4ED /* LocationObject.swift */,
+				BE70494C1B9B574C000C0F6F /* AnalyzedLocationObject.swift */,
 				BEEFECEA1B9AB81E00FD1E92 /* SearchBar.swift */,
 				BEEFECE61B9AA5FA00FD1E92 /* Extensions.swift */,
 				BEEFECE81B9AAB6800FD1E92 /* Constants.swift */,
@@ -123,6 +140,7 @@
 		BE84A5761B9A914C006A852E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEC428651B9B012D00DCA4ED /* test.json */,
 				BE84A5771B9A914C006A852E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -198,6 +216,7 @@
 				TargetAttributes = {
 					BE84A5721B9A914C006A852E = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3R5J785EXT;
 					};
 					BE84A58A1B9A914C006A852E = {
 						CreatedOnToolsVersion = 6.4;
@@ -231,6 +250,7 @@
 			files = (
 				BE84A5861B9A914C006A852E /* LaunchScreen.xib in Resources */,
 				BE84A5831B9A914C006A852E /* Images.xcassets in Resources */,
+				BEC428661B9B012D00DCA4ED /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +317,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEFECE91B9AAB6800FD1E92 /* Constants.swift in Sources */,
+				BEC428641B9AF35500DCA4ED /* LocationTableViewCell.swift in Sources */,
 				BE84A57E1B9A914C006A852E /* SearchController.swift in Sources */,
 				BE84A57C1B9A914C006A852E /* Call_It_Magic.xcdatamodeld in Sources */,
+				BEC428681B9B01AA00DCA4ED /* DataHandler.swift in Sources */,
 				BE84A5791B9A914C006A852E /* AppDelegate.swift in Sources */,
+				BE70494D1B9B574C000C0F6F /* AnalyzedLocationObject.swift in Sources */,
 				BEEFECE71B9AA5FA00FD1E92 /* Extensions.swift in Sources */,
+				BEC4286A1B9B044100DCA4ED /* LocationObject.swift in Sources */,
+				BE70494B1B9B543E000C0F6F /* LocationDetailView.swift in Sources */,
 				BEEFECEB1B9AB81E00FD1E92 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,9 +446,12 @@
 			baseConfigurationReference = F8E47045C10FDF0080E3C126 /* Pods-Call It Magic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Call It Magic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -432,9 +460,12 @@
 			baseConfigurationReference = 1BCD56F1B390E0925ADDEC34 /* Pods-Call It Magic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Call It Magic/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

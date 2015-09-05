@@ -1,0 +1,28 @@
+{
+    "places": [
+        {
+            "store_name": "PostmatesGeneralStore",
+            "product_name" : "Shampoo",
+            "lat": 39.95111,
+            "lng": -75.17864,
+            "uuid": "72751937-19b5-4eec-a8e9-c8f1b6022541",
+            "categories": []
+        },
+        {
+            "store_name": "Starbucks",
+            "product_name" : "Shaving Cream",
+            "lat": 39.94781,
+            "lng": -75.166334,
+            "uuid": "f96bca29-3325-4bd2-83c7-f2724f3d7cb0",
+            "categories": []
+        },
+        {
+            "store_name": "FreeWawaHoagiesOn-Demand",
+            "product_name" : "Toothpaste",
+            "lat": 39.94841,
+            "lng": -75.15696,
+            "uuid": "3b60a9e4-c811-4b2a-80a5-ac389f05e2f6",
+            "categories": []
+        }
+    ]
+}
