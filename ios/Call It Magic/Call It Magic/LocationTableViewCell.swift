@@ -19,7 +19,9 @@ class LocationTableViewCell: UITableViewCell {
   private var productLabel : UILabel;
   private var distanceLabel : UILabel;
   
-  private var analyzedLocObject : AnalyzedLocationObject = AnalyzedLocationObject();
+  let semaphore = dispatch_semaphore_create(0)
+  
+  var analyzedLocObject : AnalyzedLocationObject = AnalyzedLocationObject();
   
   
   var storeLabelText : String {
@@ -63,16 +65,9 @@ class LocationTableViewCell: UITableViewCell {
     self.productLabelText = object.productName
     analyzedLocObject.latitude = object.latitude;
     analyzedLocObject.longitude = object.longitude;
-    calcRoute(object)
-    var distance = analyzedLocObject.distance;
-    if(distance >= 5280) {
-      distance /= 5280;
-      self.distanceLabel.text = String(stringInterpolationSegment: (Double(round(10*distance)/10))) + " miles";
-    }
-    else {
-      self.distanceLabel.text =  String(100 * Int(round(distance / 100.0))) + " feet";
-    }
-    
+    let semaphore = dispatch_semaphore_create(0)
+    self.calcRoute(object);
+    var distance = analyzedLocObject.distance
   }
   
   private func calcRoute (object : LocationObject) {
@@ -95,11 +90,19 @@ class LocationTableViewCell: UITableViewCell {
         // Handle error
       } else {
         let route = (response.routes[0] as! MKRoute);
-        let distance : Double = route.distance;
+        var distance : Double = route.distance;
         let time : Double = route.expectedTravelTime;
-        self.analyzedLocObject.distance = distance * 3.28;
         self.analyzedLocObject.eta = Int(time/60 + 0.5);
-        
+        self.analyzedLocObject.distance = distance * 3.28;
+        distance = distance * 3.28;
+        if(distance >= 5280) {
+          distance /= 5280;
+          self.distanceLabel.text = String(stringInterpolationSegment: (Double(round(10*distance)/10))) + " miles";
+        }
+        else {
+          self.distanceLabel.text =  String(100 * Int(round(distance / 100.0))) + " feet";
+        }
+
         }
       
     })

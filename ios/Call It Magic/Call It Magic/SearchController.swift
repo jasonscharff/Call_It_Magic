@@ -85,7 +85,6 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   
   func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
     location = locations[locations.count - 1] as! CLLocation;
-    tableView.reloadData()
   }
   
   //MARK: UI Creation
@@ -125,17 +124,26 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   }
   
   
-  //MARK: Table View Data Source
+  //MARK: Table View Data Source and Delegate
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     var cell : LocationTableViewCell = tableView.dequeueReusableCellWithIdentifier("LocationCell") as! LocationTableViewCell;
     cell.setFromData(dataset[indexPath.row], location:location);
     return cell;
   }
+  
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return dataset.count;
   }
   
+  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    println("hola");
+    let vc = LocationDetailView();
+    let cell : LocationTableViewCell = tableView.cellForRowAtIndexPath(indexPath) as! LocationTableViewCell;
+    vc.locationObject = cell.analyzedLocObject;
+    self.navigationController?.pushViewController(vc, animated: true);
+    
+  }
   
   //MARK: Scroll View Stuff
   
@@ -156,14 +164,11 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
     
   }
   func textFieldDidChange(notifcation: NSNotification) {
-    if(!hasAddedTableView) {
-      addTableView();
-    }
     if(searchbar.textField.text.isEmpty) {
       self.dataset = [];
     }
     else {
-      let index = client.getIndex("prod_magic")
+      let index = client.getIndex("prod_magic2")
       let attributesToIndex = ["item_name"]
       let settings = [
         "attributesToIndex": attributesToIndex
@@ -179,10 +184,13 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
         }
         else {
           self.dataset = DataHandler.parseJSON(content!)
+          if(!self.hasAddedTableView) {
+            self.addTableView();
+          }
+          self.tableView.reloadData();
         }
       })
     }
-    self.tableView.reloadData();
   }
   
   func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -199,4 +207,5 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   
 
 }
+
 

@@ -28,6 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     nav.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "HelveticaNeue-Light", size: 24)!, NSForegroundColorAttributeName : Constants.themeGray]
     
+    UINavigationBar.appearance().tintColor = Constants.themeGray
+    
     return true
   }
 

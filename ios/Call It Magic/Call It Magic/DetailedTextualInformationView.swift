@@ -21,12 +21,37 @@ class DetailedTextualInformationView : UIView {
     
     super.init(frame: CGRectZero)
     
-    var font = UIFont(name: "HelveticaNeue", size: 16);
+    var font = UIFont(name: "HelveticaNeue", size: 18);
     
-    addressLabel.font = font;
+    addressLabel.font = UIFont(name: "HelveticaNeue", size: 18);
+    addressLabel.textAlignment = .Center;
     productLabel.font = font;
     priceLabel.font = font;
     etaLabel.font = font;
+    
+    productLabel.text = object.productName;
+    priceLabel.text = "$" + String(stringInterpolationSegment: object.price);
+    var geocoder = CLGeocoder()
+    geocoder.reverseGeocodeLocation(CLLocation(latitude: object.latitude, longitude: object.longitude), completionHandler: { (placemarks, error) -> Void in
+        let pm = placemarks[0] as! CLPlacemark
+        let dictionary = pm.addressDictionary;
+      let addressString : String = (dictionary["Street"] as! String) + ", " + (dictionary["SubLocality"] as! String) + ", " + (dictionary["State"] as! String);
+      addressLabel.text = addressString;
+      addressLabel.textAlignment = NSTextAlignment.Center;
+      addressLabel.preferredMaxLayoutWidth = 50;
+    })
+    
+    self.addSubview(addressLabel);
+    self.addSubview(productLabel);
+    self.addSubview(priceLabel);
+    self.addSubview(etaLabel);
+    
+    addressLabel.snp_makeConstraints { (make) -> Void in
+      make.top.equalTo(self);
+      make.leftMargin.equalTo(self);
+      make.rightMargin.equalTo(self);
+    }
+    
   }
 
   required init(coder aDecoder: NSCoder) {

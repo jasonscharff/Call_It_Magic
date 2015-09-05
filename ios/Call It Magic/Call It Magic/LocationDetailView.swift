@@ -11,16 +11,19 @@ import UIKit
 import MapKit
 import CoreLocation
 
-var locationObject = AnalyzedLocationObject(); //Set before transition to the new VC
 
-private var map : MKMapView = MKMapView()
-private var annotation : MKPointAnnotation = MKPointAnnotation()
 
-class LocationDetaiLView : UIViewController {
+class LocationDetailView : UIViewController {
+  
+  var locationObject : AnalyzedLocationObject = AnalyzedLocationObject(); //Set before transition to the new VC
+  
+  private var map : MKMapView = MKMapView()
+  private var annotation : MKPointAnnotation = MKPointAnnotation()
   
   //MARK: View States
   override func viewDidLoad() {
     super.viewDidLoad();
+    self.view.backgroundColor = UIColor.whiteColor();
     self.title = locationObject.storeName;
     setLocation(locationObject.latitude, longitude: locationObject.longitude);
     addTextualInformation()
@@ -29,8 +32,8 @@ class LocationDetaiLView : UIViewController {
   
   //MARK: Set up UI
   private func setLocation(latitude : Double, longitude : Double) {
+    self.view.addSubview(map);
     //Set map
-    map.removeAnnotation(annotation);
     var coord : CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude);
     var span : MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.025, longitudeDelta: 0.025);
     var region : MKCoordinateRegion = MKCoordinateRegion(center: coord, span: span)
@@ -40,20 +43,22 @@ class LocationDetaiLView : UIViewController {
     map.addAnnotation(annotation);
     
     map.snp_makeConstraints { (make) -> Void in
-      make.top.equalTo(Constants.navbarHeight + 10)
+      make.topMargin.equalTo(Constants.navbarHeight + 10)
       make.left.equalTo(10);
-      make.right.equalTo(10);
+      make.right.equalTo(-10);
       make.height.equalTo((self.view.frame.size.height - CGFloat(Constants.navbarHeight - 10))/3)
     }
   }
   
   private func addTextualInformation() {
-    var topLabel = UILabel();
-    topLabel.text = locationObject.storeName;
-    topLabel.font = UIFont(name: "HelveticaNeue", size: 20);
-//    topLabel.snp_makeConstraints { (make) -> Void in
-//      make.top.equalTo(<#other: CGFloat#>)
-//    }
+    var textView : DetailedTextualInformationView = DetailedTextualInformationView(object: locationObject);
+    self.view.addSubview(textView);
+    textView.snp_makeConstraints { (make) -> Void in
+      make.left.equalTo(10);
+      make.right.equalTo(-10);
+      make.top.equalTo(self.map.snp_bottom).offset(10);
+    }
+    
   }
   
   private func addActions() {

@@ -16,9 +16,9 @@ class LocationObject: AnyObject {
   var price : Double;
   
   init(json : Dictionary<String, AnyObject>) {
-    latitude = json["lat"] as! Double;
-    println(latitude)
-    longitude = json["lng"] as! Double;
+    var subDictionary: Dictionary<String, AnyObject> = json["_geoloc"] as! Dictionary<String, AnyObject>;
+    latitude = (subDictionary["lat"] as! NSNumber).doubleValue
+    longitude = (subDictionary["lng"] as! NSNumber).doubleValue;
     storeName = json["place_name"] as! String;
     productName = json["item_name"] as! String;
     price = json["item_price"] as! Double;
