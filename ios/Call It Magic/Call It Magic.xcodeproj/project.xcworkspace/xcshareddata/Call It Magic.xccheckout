@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB586669-73B3-46AE-A106-CB7B484BB36E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>09EF2193C7F5319CF54E8596F5AED52A1EB925BB</key>
+		<string>https://github.com/jasonscharff/Call_It_Magic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/Call It Magic/Call It Magic.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>09EF2193C7F5319CF54E8596F5AED52A1EB925BB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jasonscharff/Call_It_Magic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>09EF2193C7F5319CF54E8596F5AED52A1EB925BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09EF2193C7F5319CF54E8596F5AED52A1EB925BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Call%20it%20Magic</string>
+		</dict>
+	</array>
+</dict>
+</plist>
