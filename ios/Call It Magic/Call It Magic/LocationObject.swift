@@ -27,6 +27,7 @@ class LocationObject: AnyObject {
     var yelpDictionary = json["yelp"] as! Dictionary <String, AnyObject>;
     yelpLink = yelpDictionary["url"] as! String
     ratingsImage = yelpDictionary["ratingimg"] as! String;
+    
   }
   
 }

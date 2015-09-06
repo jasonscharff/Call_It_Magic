@@ -79,12 +79,15 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   }
   
   func setupLocation () {
-    locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+    locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters
     locationManager.delegate = self;
   }
   
   func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
     location = locations[locations.count - 1] as! CLLocation;
+    Constants.userLatitude = location.coordinate.latitude;
+    Constants.userLongitude = location.coordinate.longitude;
+  
   }
   
   //MARK: UI Creation
@@ -127,6 +130,7 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   //MARK: Table View Data Source and Delegate
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+    print(indexPath.row);
     var cell : LocationTableViewCell = tableView.dequeueReusableCellWithIdentifier("LocationCell") as! LocationTableViewCell;
     cell.setFromData(dataset[indexPath.row], location:location);
     return cell;
@@ -137,7 +141,6 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   }
   
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    println("hola");
     let vc = LocationDetailView();
     let cell : LocationTableViewCell = tableView.cellForRowAtIndexPath(indexPath) as! LocationTableViewCell;
     cell.setSelected(false, animated: true);
@@ -167,9 +170,10 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   func textFieldDidChange(notifcation: NSNotification) {
     if(searchbar.textField.text.isEmpty) {
       self.dataset = [];
+      tableView.reloadData()
     }
     else {
-      let index = client.getIndex("prod_magic2")
+      let index = client.getIndex("prod_magic3")
       let attributesToIndex = ["item_name"]
       let settings = [
         "attributesToIndex": attributesToIndex

@@ -19,8 +19,10 @@ class DetailedTextualInformationView : UIView {
     super.init(frame:CGRectZero);
   }
   
+  var addressLabel = UILabel();
+  
   init(object : AnalyzedLocationObject) {
-    var addressLabel = UILabel();
+    
     var productLabel = UILabel();
     var etaLabel = UILabel();
     
@@ -41,12 +43,20 @@ class DetailedTextualInformationView : UIView {
     geocoder.reverseGeocodeLocation(CLLocation(latitude: object.latitude, longitude: object.longitude), completionHandler: { (placemarks, error) -> Void in
         let pm = placemarks[0] as! CLPlacemark
         let dictionary = pm.addressDictionary;
-      let addressString : String = (dictionary["Street"] as! String) + ", " + (dictionary["SubLocality"] as! String) + ", " + (dictionary["State"] as! String);
-      addressLabel.text = addressString;
-      addressLabel.textAlignment = NSTextAlignment.Center;
+      var addressString = "";
+      if((dictionary["Street"]) != nil) {
+         addressString  = (dictionary["Street"] as! String) + ", " + (dictionary["SubLocality"] as! String) + ", " + (dictionary["State"] as! String);
+      }
+      else {
+        let lineOne = (dictionary["FormattedAddressLines"] as! Array<String>)[0];
+        let lineTwo = (dictionary["FormattedAddressLines"] as! Array<String>)[1];
+        addressString = lineOne + lineTwo;
+      }
+      self.addressLabel.text = addressString;
+      self.addressLabel.textAlignment = NSTextAlignment.Center;
       productLabel.textAlignment = NSTextAlignment.Center;
-      addressLabel.preferredMaxLayoutWidth = 200;
-      addressLabel.numberOfLines = 0;
+      self.addressLabel.preferredMaxLayoutWidth = 200;
+      self.addressLabel.numberOfLines = 0;
     })
     
     self.addSubview(addressLabel);

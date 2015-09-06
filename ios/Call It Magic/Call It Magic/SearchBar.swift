@@ -25,7 +25,7 @@ class SearchBar : UIView {
     textField = UITextField()
     textField.backgroundColor = UIColor.clearColor()
     textField.contentVerticalAlignment = UIControlContentVerticalAlignment.Bottom
-    textField.placeholder = "shaving cream";
+    textField.placeholder = "start typing";
     textField.font = UIFont(name: "HelveticaNeue", size: 40);
     textField.returnKeyType = UIReturnKeyType.Done;
     super.init(frame: frame)

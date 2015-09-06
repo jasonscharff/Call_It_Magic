@@ -14,6 +14,7 @@ class AnalyzedLocationObject : AnyObject {
   var storeName : String;
   var longitude : Double;
   var latitude : Double;
+  
   var price : Double;
   var eta : Int;
   var ratingsURL : String;

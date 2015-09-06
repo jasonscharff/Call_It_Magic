@@ -78,7 +78,8 @@ class LocationTableViewCell: UITableViewCell {
     let item = MKMapItem(placemark: placemark);
     
     let request = MKDirectionsRequest()
-    request.setSource(MKMapItem.mapItemForCurrentLocation())
+    var mapItemForCurrent = MKMapItem.mapItemForCurrentLocation()
+    request.setSource(mapItemForCurrent)
     request.setDestination(item);
     request.transportType = MKDirectionsTransportType.Automobile;
     request.requestsAlternateRoutes = false
