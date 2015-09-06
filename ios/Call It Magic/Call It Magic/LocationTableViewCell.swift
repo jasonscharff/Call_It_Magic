@@ -19,7 +19,7 @@ class LocationTableViewCell: UITableViewCell {
   private var productLabel : UILabel;
   private var distanceLabel : UILabel;
   
-  let semaphore = dispatch_semaphore_create(0)
+
   
   var analyzedLocObject : AnalyzedLocationObject = AnalyzedLocationObject();
   
@@ -66,7 +66,8 @@ class LocationTableViewCell: UITableViewCell {
     analyzedLocObject.latitude = object.latitude;
     analyzedLocObject.longitude = object.longitude;
     analyzedLocObject.price = object.price;
-    let semaphore = dispatch_semaphore_create(0)
+    analyzedLocObject.ratingsURL = object.ratingsImage;
+    analyzedLocObject.yelpURL = object.yelpLink;
     self.calcRoute(object);
     var distance = analyzedLocObject.distance
   }

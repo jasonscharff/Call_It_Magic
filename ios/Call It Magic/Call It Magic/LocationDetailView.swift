@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import MapKit
 import CoreLocation
-
+import Haneke
 
 
 class LocationDetailView : UIViewController {
@@ -20,6 +20,9 @@ class LocationDetailView : UIViewController {
   private var map : MKMapView = MKMapView()
   private var annotation : MKPointAnnotation = MKPointAnnotation()
   
+  var textView : DetailedTextualInformationView = DetailedTextualInformationView();
+  
+  
   //MARK: View States
   override func viewDidLoad() {
     super.viewDidLoad();
@@ -27,6 +30,7 @@ class LocationDetailView : UIViewController {
     self.title = locationObject.storeName;
     setLocation(locationObject.latitude, longitude: locationObject.longitude);
     addTextualInformation()
+    addRatings()
     addActions()
   }
   
@@ -51,7 +55,7 @@ class LocationDetailView : UIViewController {
   }
   
   private func addTextualInformation() {
-    var textView : DetailedTextualInformationView = DetailedTextualInformationView(object: locationObject);
+    textView = DetailedTextualInformationView(object: locationObject);
     self.view.addSubview(textView);
     textView.snp_makeConstraints { (make) -> Void in
       make.left.equalTo(10);
@@ -59,6 +63,34 @@ class LocationDetailView : UIViewController {
       make.top.equalTo(self.map.snp_bottom).offset(5);
     }
     
+  }
+  
+  private func addRatings() {
+    var imageView = UIImageView();
+    imageView.contentMode = UIViewContentMode.ScaleAspectFit;
+    self.view.addSubview(imageView);
+   
+    imageView.snp_makeConstraints { (make) -> Void in
+      make.width.greaterThanOrEqualTo(150);
+      make.height.greaterThanOrEqualTo(60);
+      make.centerX.equalTo(self.view);
+      make.topMargin.equalTo(self.textView).offset(80)
+    }
+    
+    
+    imageView.sizeToFit()
+    imageView.image = UIImage(data: NSData(contentsOfURL: NSURL(string: locationObject.ratingsURL)!)!);
+    imageView.userInteractionEnabled = true;
+    var gestureRecognizer = UITapGestureRecognizer();
+    gestureRecognizer.addTarget(self, action: "goToYelp:");
+    imageView.addGestureRecognizer(gestureRecognizer);
+  }
+  
+  func goToYelp (sender: UITapGestureRecognizer) {
+    let vc = WebView()
+    vc.titleOfNav = "Yelp"
+    vc.url = locationObject.yelpURL;
+    self.navigationController?.pushViewController(vc, animated: true);
   }
   
   private func addActions() {

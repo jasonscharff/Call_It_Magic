@@ -16,16 +16,10 @@ class AnalyzedLocationObject : AnyObject {
   var latitude : Double;
   var price : Double;
   var eta : Int;
+  var ratingsURL : String;
+  var yelpURL : String;
   
-  init(distance: Double, productName : String, storeName : String, latitude : Double, longitude : Double, price : Double, eta: Int) {
-    self.distance = distance;
-    self.productName = productName;
-    self.storeName = storeName;
-    self.latitude = latitude;
-    self.longitude = longitude;
-    self.price = price;
-    self.eta = eta;
-  }
+
   
   init() {
     distance = 0;
@@ -35,6 +29,8 @@ class AnalyzedLocationObject : AnyObject {
     longitude = 0
     price = 0
     eta = 0;
+    yelpURL = ""
+    ratingsURL = ""
   }
 
 }

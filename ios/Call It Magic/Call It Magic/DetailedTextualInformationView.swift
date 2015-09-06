@@ -13,6 +13,12 @@ import SnapKit
 
 
 class DetailedTextualInformationView : UIView {
+  
+  
+  init() {
+    super.init(frame:CGRectZero);
+  }
+  
   init(object : AnalyzedLocationObject) {
     var addressLabel = UILabel();
     var productLabel = UILabel();
@@ -54,7 +60,7 @@ class DetailedTextualInformationView : UIView {
     }
     
     productLabel.snp_makeConstraints { (make) -> Void in
-      make.top.equalTo(addressLabel.snp_bottom).offset(3);
+      make.top.equalTo(addressLabel.snp_bottom).offset(2);
       make.leftMargin.equalTo(self);
       make.rightMargin.equalTo(self);
     }
