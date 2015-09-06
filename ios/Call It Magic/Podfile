@@ -18,6 +18,8 @@ pod 'SnapKit', '~> 0.12.0'
 
 pod 'AlgoliaSearch-Client-Swift', '~> 1.1'
 
+pod 'Haneke', '~> 1.0'
+
 end
 
 target 'Call It MagicTests' do

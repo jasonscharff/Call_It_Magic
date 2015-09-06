@@ -56,7 +56,7 @@ class LocationDetailView : UIViewController {
     textView.snp_makeConstraints { (make) -> Void in
       make.left.equalTo(10);
       make.right.equalTo(-10);
-      make.top.equalTo(self.map.snp_bottom).offset(10);
+      make.top.equalTo(self.map.snp_bottom).offset(5);
     }
     
   }

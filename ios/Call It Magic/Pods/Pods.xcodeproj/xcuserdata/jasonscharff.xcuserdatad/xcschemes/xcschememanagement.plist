@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Call It Magic-Haneke.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Call It Magic-PureLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A005FA49AE48922B03801C4B</key>
+		<key>0237E16734898BBFA0DD2296</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D3A702ECD1757D65A9A7ECBD</key>
+		<key>2478626A9201D37B9830D59F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E3F083AE8BF642856AF50536</key>
+		<key>9CF784471A2776E485503AE6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EF8ED16CD15368839B37A4AC</key>
+		<key>AAC90B28695A58187D3A7F65</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F30D4FD5B8057F82CD259238</key>
+		<key>E601A0DECBF4F14EAC3F7AB1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F6305FEE6CA60B091D8719B9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

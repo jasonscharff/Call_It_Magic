@@ -16,21 +16,21 @@ class DetailedTextualInformationView : UIView {
   init(object : AnalyzedLocationObject) {
     var addressLabel = UILabel();
     var productLabel = UILabel();
-    var priceLabel = UILabel();
     var etaLabel = UILabel();
     
     super.init(frame: CGRectZero)
     
     var font = UIFont(name: "HelveticaNeue", size: 18);
     
-    addressLabel.font = UIFont(name: "HelveticaNeue", size: 18);
+    addressLabel.font = UIFont(name: "HelveticaNeue-Bold", size: 20);
     addressLabel.textAlignment = .Center;
     productLabel.font = font;
-    priceLabel.font = font;
     etaLabel.font = font;
+    var formatter = NSNumberFormatter()
+    formatter.numberStyle = .CurrencyStyle
+    let priceString = formatter.stringFromNumber(object.price)
+    productLabel.text = object.productName + ", " + priceString!;
     
-    productLabel.text = object.productName;
-    priceLabel.text = "$" + String(stringInterpolationSegment: object.price);
     var geocoder = CLGeocoder()
     geocoder.reverseGeocodeLocation(CLLocation(latitude: object.latitude, longitude: object.longitude), completionHandler: { (placemarks, error) -> Void in
         let pm = placemarks[0] as! CLPlacemark
@@ -38,12 +38,13 @@ class DetailedTextualInformationView : UIView {
       let addressString : String = (dictionary["Street"] as! String) + ", " + (dictionary["SubLocality"] as! String) + ", " + (dictionary["State"] as! String);
       addressLabel.text = addressString;
       addressLabel.textAlignment = NSTextAlignment.Center;
-      addressLabel.preferredMaxLayoutWidth = 50;
+      productLabel.textAlignment = NSTextAlignment.Center;
+      addressLabel.preferredMaxLayoutWidth = 200;
+      addressLabel.numberOfLines = 0;
     })
     
     self.addSubview(addressLabel);
     self.addSubview(productLabel);
-    self.addSubview(priceLabel);
     self.addSubview(etaLabel);
     
     addressLabel.snp_makeConstraints { (make) -> Void in
@@ -51,6 +52,13 @@ class DetailedTextualInformationView : UIView {
       make.leftMargin.equalTo(self);
       make.rightMargin.equalTo(self);
     }
+    
+    productLabel.snp_makeConstraints { (make) -> Void in
+      make.top.equalTo(addressLabel.snp_bottom).offset(3);
+      make.leftMargin.equalTo(self);
+      make.rightMargin.equalTo(self);
+    }
+    
     
   }
 

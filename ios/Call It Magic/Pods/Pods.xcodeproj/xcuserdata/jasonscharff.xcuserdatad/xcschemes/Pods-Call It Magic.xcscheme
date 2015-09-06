@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F30D4FD5B8057F82CD259238"
+               BlueprintIdentifier = "E601A0DECBF4F14EAC3F7AB1"
                BuildableName = "Pods_Call_It_Magic.framework"
                BlueprintName = "Pods-Call It Magic"
                ReferencedContainer = "container:Pods.xcodeproj">

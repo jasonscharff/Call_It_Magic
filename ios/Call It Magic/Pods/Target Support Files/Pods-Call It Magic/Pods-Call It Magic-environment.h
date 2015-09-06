@@ -18,6 +18,12 @@
 #define COCOAPODS_VERSION_MINOR_AlgoliaSearch_Client_Swift 4
 #define COCOAPODS_VERSION_PATCH_AlgoliaSearch_Client_Swift 2
 
+// Haneke
+#define COCOAPODS_POD_AVAILABLE_Haneke
+#define COCOAPODS_VERSION_MAJOR_Haneke 1
+#define COCOAPODS_VERSION_MINOR_Haneke 0
+#define COCOAPODS_VERSION_PATCH_Haneke 1
+
 // PureLayout
 #define COCOAPODS_POD_AVAILABLE_PureLayout
 #define COCOAPODS_VERSION_MAJOR_PureLayout 3

@@ -65,6 +65,7 @@ class LocationTableViewCell: UITableViewCell {
     self.productLabelText = object.productName
     analyzedLocObject.latitude = object.latitude;
     analyzedLocObject.longitude = object.longitude;
+    analyzedLocObject.price = object.price;
     let semaphore = dispatch_semaphore_create(0)
     self.calcRoute(object);
     var distance = analyzedLocObject.distance
@@ -124,8 +125,8 @@ class LocationTableViewCell: UITableViewCell {
   private func setProperties() {
     map.scrollEnabled = false;
     map.zoomEnabled = false;
-    storeLabel.font = UIFont(name: "HelveticaNeue", size: 20);
-    productLabel.font = UIFont(name: "HelveticaNeue", size:16);
+    storeLabel.font = UIFont(name: "HelveticaNeue", size: 16);
+    productLabel.font = UIFont(name: "HelveticaNeue", size:20);
     distanceLabel.font = UIFont(name:"HelveticaNeue", size:12);
   }
   
@@ -145,18 +146,20 @@ class LocationTableViewCell: UITableViewCell {
     }
     
     storeLabel.snp_makeConstraints { (make) -> Void in
-      make.left.equalTo(self.map.snp_right).offset(7);
-      make.top.equalTo(self.map.snp_top);
+      make.left.equalTo(self.productLabel.snp_left);
+      make.top.equalTo(self.productLabel.snp_bottom).offset(2);
     }
     
     productLabel.snp_makeConstraints { (make) -> Void in
-      make.left.equalTo(self.storeLabel.snp_left);
-      make.top.equalTo(self.storeLabel.snp_bottom).offset(2);
+      
+      make.left.equalTo(self.map.snp_right).offset(7);
+      make.top.equalTo(self.map.snp_top);
+      
     }
     
     distanceLabel.snp_makeConstraints { (make) -> Void in
-      make.left.equalTo(self.productLabel.snp_left);
-      make.top.equalTo(self.productLabel.snp_bottom).offset(2);
+      make.left.equalTo(self.storeLabel.snp_left);
+      make.top.equalTo(self.storeLabel.snp_bottom).offset(2);
     }
   }
 }

@@ -140,6 +140,7 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
     println("hola");
     let vc = LocationDetailView();
     let cell : LocationTableViewCell = tableView.cellForRowAtIndexPath(indexPath) as! LocationTableViewCell;
+    cell.setSelected(false, animated: true);
     vc.locationObject = cell.analyzedLocObject;
     self.navigationController?.pushViewController(vc, animated: true);
     
