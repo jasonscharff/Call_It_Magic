@@ -125,7 +125,11 @@ class LocationDetailView : UIViewController {
   }
   
   func getPostmates(sender: UIButton) {
-    
+    let vc = WebView()
+    vc.titleOfNav = "Postmates"
+    let theURL = "https://postmates.com/phi/" + locationObject.placeUUID +  "/view/" + locationObject.itemUUID;
+    vc.url = theURL;
+    self.navigationController?.pushViewController(vc, animated: true);
   }
   
   func getUber (sender: UIButton) {
@@ -138,7 +142,7 @@ class LocationDetailView : UIViewController {
         let dictionary = pm.addressDictionary;
         var addressString = "";
         if((dictionary["Street"]) != nil) {
-          addressString  = (dictionary["Street"] as! String) + ", " + (dictionary["SubLocality"] as! String) + ", " + (dictionary["State"] as! String);
+          addressString  = (dictionary["Street"] as! String) + ", " + (dictionary["City"] as! String) + ", " + (dictionary["State"] as! String);
         }
         else {
           let lineOne = (dictionary["FormattedAddressLines"] as! Array<String>)[0];

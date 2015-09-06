@@ -68,6 +68,8 @@ class LocationTableViewCell: UITableViewCell {
     analyzedLocObject.price = object.price;
     analyzedLocObject.ratingsURL = object.ratingsImage;
     analyzedLocObject.yelpURL = object.yelpLink;
+    analyzedLocObject.placeUUID = object.placeUUID;
+    analyzedLocObject.itemUUID = object.itemUUID;
     self.calcRoute(object);
     var distance = analyzedLocObject.distance
   }

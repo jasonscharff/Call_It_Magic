@@ -20,6 +20,9 @@ class AnalyzedLocationObject : AnyObject {
   var ratingsURL : String;
   var yelpURL : String;
   
+  var itemUUID : String;
+  var placeUUID : String;
+  
 
   
   init() {
@@ -32,6 +35,8 @@ class AnalyzedLocationObject : AnyObject {
     eta = 0;
     yelpURL = ""
     ratingsURL = ""
+    itemUUID = ""
+    placeUUID = ""
   }
 
 }

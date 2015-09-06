@@ -45,7 +45,7 @@ class DetailedTextualInformationView : UIView {
         let dictionary = pm.addressDictionary;
       var addressString = "";
       if((dictionary["Street"]) != nil) {
-         addressString  = (dictionary["Street"] as! String) + ", " + (dictionary["SubLocality"] as! String) + ", " + (dictionary["State"] as! String);
+         addressString  = (dictionary["Street"] as! String) + ", " + (dictionary["City"] as! String) + ", " + (dictionary["State"] as! String);
       }
       else {
         let lineOne = (dictionary["FormattedAddressLines"] as! Array<String>)[0];

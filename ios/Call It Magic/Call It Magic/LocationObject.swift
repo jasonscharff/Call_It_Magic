@@ -16,6 +16,8 @@ class LocationObject: AnyObject {
   var price : Double;
   var yelpLink : String;
   var ratingsImage : String;
+  var placeUUID : String;
+  var itemUUID : String;
   
   init(json : Dictionary<String, AnyObject>) {
     var subDictionary: Dictionary<String, AnyObject> = json["_geoloc"] as! Dictionary<String, AnyObject>;
@@ -27,7 +29,8 @@ class LocationObject: AnyObject {
     var yelpDictionary = json["yelp"] as! Dictionary <String, AnyObject>;
     yelpLink = yelpDictionary["url"] as! String
     ratingsImage = yelpDictionary["ratingimg"] as! String;
-    
+    placeUUID = json["place_uuid"] as! String;
+    itemUUID = json["item_uuid"] as! String;
   }
   
 }
