@@ -183,6 +183,8 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
           println("Error when applying settings: \(error)")
         }
       })
+      let query = Query()
+   //   query.searchAroundLatitude((location.coordinate.latitude as Double), longitude: (location.coordinate.longitude as Double), maxDistance: 160934);
       index.search(Query(query: searchbar.textField.text), block: { (content, error) -> Void in
         if (error != nil) {
           print(error);

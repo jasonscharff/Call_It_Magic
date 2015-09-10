@@ -16,7 +16,6 @@
 		BE84A57C1B9A914C006A852E /* Call_It_Magic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE84A57A1B9A914C006A852E /* Call_It_Magic.xcdatamodeld */; };
 		BE84A57E1B9A914C006A852E /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A57D1B9A914C006A852E /* SearchController.swift */; };
 		BE84A5831B9A914C006A852E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE84A5821B9A914C006A852E /* Images.xcassets */; };
-		BE84A5861B9A914C006A852E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE84A5841B9A914C006A852E /* LaunchScreen.xib */; };
 		BE84A5921B9A914C006A852E /* Call_It_MagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE84A5911B9A914C006A852E /* Call_It_MagicTests.swift */; };
 		BEC428641B9AF35500DCA4ED /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC428631B9AF35500DCA4ED /* LocationTableViewCell.swift */; };
 		BEC428661B9B012D00DCA4ED /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = BEC428651B9B012D00DCA4ED /* test.json */; };
@@ -25,6 +24,7 @@
 		BEEFECE71B9AA5FA00FD1E92 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFECE61B9AA5FA00FD1E92 /* Extensions.swift */; };
 		BEEFECE91B9AAB6800FD1E92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFECE81B9AAB6800FD1E92 /* Constants.swift */; };
 		BEEFECEB1B9AB81E00FD1E92 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEFECEA1B9AB81E00FD1E92 /* SearchBar.swift */; };
+		BEFB181E1B9C3978008D7180 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEFB181D1B9C3978008D7180 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 		BE84A57B1B9A914C006A852E /* Call_It_Magic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Call_It_Magic.xcdatamodel; sourceTree = "<group>"; };
 		BE84A57D1B9A914C006A852E /* SearchController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		BE84A5821B9A914C006A852E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BE84A5851B9A914C006A852E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BE84A58B1B9A914C006A852E /* Call It MagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Call It MagicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84A5901B9A914C006A852E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE84A5911B9A914C006A852E /* Call_It_MagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call_It_MagicTests.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		BEEFECE61B9AA5FA00FD1E92 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BEEFECE81B9AAB6800FD1E92 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BEEFECEA1B9AB81E00FD1E92 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		BEFB181D1B9C3978008D7180 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		BF3C863D55D7822580453AAE /* Pods_Call_It_Magic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Call_It_Magic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E47045C10FDF0080E3C126 /* Pods-Call It Magic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Call It Magic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Call It Magic/Pods-Call It Magic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,7 +136,7 @@
 				BEEFECE61B9AA5FA00FD1E92 /* Extensions.swift */,
 				BEEFECE81B9AAB6800FD1E92 /* Constants.swift */,
 				BE84A5821B9A914C006A852E /* Images.xcassets */,
-				BE84A5841B9A914C006A852E /* LaunchScreen.xib */,
+				BEFB181D1B9C3978008D7180 /* LaunchScreen.xib */,
 				BE84A57A1B9A914C006A852E /* Call_It_Magic.xcdatamodeld */,
 				BE84A5761B9A914C006A852E /* Supporting Files */,
 			);
@@ -254,7 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE84A5861B9A914C006A852E /* LaunchScreen.xib in Resources */,
+				BEFB181E1B9C3978008D7180 /* LaunchScreen.xib in Resources */,
 				BE84A5831B9A914C006A852E /* Images.xcassets in Resources */,
 				BEC428661B9B012D00DCA4ED /* test.json in Resources */,
 			);
@@ -355,17 +355,6 @@
 			targetProxy = BE84A58C1B9A914C006A852E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BE84A5841B9A914C006A852E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE84A5851B9A914C006A852E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE84A5931B9A914C006A852E /* Debug */ = {
