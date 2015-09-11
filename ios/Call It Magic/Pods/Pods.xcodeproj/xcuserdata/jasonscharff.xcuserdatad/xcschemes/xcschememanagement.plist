@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Call It Magic-Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-Call It Magic-AlgoliaSearch-Client-Swift.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0237E16734898BBFA0DD2296</key>
+		<key>2CF0734CE0B8FCD3DE14C8AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2478626A9201D37B9830D59F</key>
+		<key>3F8B502981FD27D748041DD4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9CF784471A2776E485503AE6</key>
+		<key>547E8AE74BCDDDD458CDD67C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AAC90B28695A58187D3A7F65</key>
+		<key>764CB9CA2507579FC0D814DD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E601A0DECBF4F14EAC3F7AB1</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F6305FEE6CA60B091D8719B9</key>
+		<key>7B55B30EEF14F1F28BE63CCA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

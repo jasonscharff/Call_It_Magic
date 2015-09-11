@@ -18,7 +18,7 @@ class DataHandler: AnyObject {
     var locations = Array<LocationObject>();
     
     for dictionary in realContent {
-      var object = LocationObject(json: dictionary as! Dictionary<String, AnyObject>)
+      let object = LocationObject(json: dictionary as! Dictionary<String, AnyObject>)
       locations.append(object);
     }
     return locations;

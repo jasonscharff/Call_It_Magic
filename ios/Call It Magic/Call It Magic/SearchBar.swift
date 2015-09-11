@@ -35,7 +35,7 @@ class SearchBar : UIView {
     self.addSubview(searchImage);
     self.addSubview(textField);
     self.addSubview(line);
-    var constraintH = NSLayoutConstraint.constraintsWithVisualFormat( "H:|[searchImage]-[textField]|", options: nil, metrics:nil, views: ["searchImage":searchImage, "textField":textField]);
+    var constraintH = NSLayoutConstraint.constraintsWithVisualFormat( "H:|[searchImage]-[textField]|", options: [], metrics:nil, views: ["searchImage":searchImage, "textField":textField]);
     
     self.addConstraints(constraintH);
     
@@ -58,7 +58,7 @@ class SearchBar : UIView {
     self.init(frame:CGRectZero)
   }
   
-  required init(coder aDecoder: NSCoder) {
+  required init?(coder aDecoder: NSCoder) {
     fatalError("This class does not support NSCoding")
   }
   

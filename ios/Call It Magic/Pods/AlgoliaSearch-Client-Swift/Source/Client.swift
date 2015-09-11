@@ -33,8 +33,19 @@ public class Client : NSObject {
             setExtraHeader(apiKey, forKey: "X-Algolia-API-Key")
         }
     }
+    
+    /// Security tag header
+    public var queryParameters: String? {
+        didSet {
+            if let queryParameters = queryParameters {
+                setExtraHeader(queryParameters, forKey: "X-Algolia-QueryParameters")
+            } else {
+                manager.session.configuration.HTTPAdditionalHeaders?.removeValueForKey("X-Algolia-QueryParameters")
+            }
+        }
+    }
 
-    /// Security tag header (see http://www.algolia.com/doc/guides/objc#SecurityUser for more details).
+    /// Security tag header (deprecated)
     public var tagFilters: String? {
         didSet {
             if let tagFilters = tagFilters {
@@ -45,7 +56,7 @@ public class Client : NSObject {
         }
     }
 
-    /// User-token header (see http://www.algolia.com/doc/guides/objc#SecurityUser for more details).
+    /// User-token header
     public var userToken: String? {
         didSet {
             if let userToken = userToken {
@@ -70,22 +81,18 @@ public class Client : NSObject {
 
     /// Algolia Search initialization.
     ///
-    /// :param: appID the application ID you have in your admin interface
-    /// :param: apiKey a valid API key for the service
-    /// :param: tagFilters value of the header X-Algolia-TagFilters
-    /// :param: userToken value of the header X-Algolia-UserToken
-    /// :param: hostnames the list of hosts that you have received for the service
-    public init(appID: String, apiKey: String, tagFilters: String? = nil, userToken: String? = nil, hostnames: [String]? = nil) {
-        if count(appID) == 0 {
-            NSException(name: "InvalidArgument", reason: "Application ID must be set", userInfo: nil).raise()
-        } else if count(apiKey) == 0 {
-            NSException(name: "InvalidArgument", reason: "APIKey must be set", userInfo: nil).raise()
-        }
-
+    /// - parameter appID: the application ID you have in your admin interface
+    /// - parameter apiKey: a valid API key for the service
+    /// - parameter queryParameters: value of the header X-Algolia-QueryParameters
+    /// - parameter tagFilters: value of the header X-Algolia-TagFilters (deprecated)
+    /// - parameter userToken: value of the header X-Algolia-UserToken
+    /// - parameter hostnames: the list of hosts that you have received for the service
+    public init(appID: String, apiKey: String, queryParameters: String? = nil, tagFilters: String? = nil, userToken: String? = nil, hostnames: [String]? = nil) {
         self.appID = appID
         self.apiKey = apiKey
         self.tagFilters = tagFilters
         self.userToken = userToken
+        self.queryParameters = queryParameters
 
         if let hostnames = hostnames {
             readQueryHostnames = hostnames
@@ -114,6 +121,9 @@ public class Client : NSObject {
             "User-Agent": "Algolia for Swift \(version)"
         ]
 
+        if let queryParameters = self.queryParameters {
+            HTTPHeaders["X-Algolia-QueryParameters"] = queryParameters
+        }
         if let tagFilters = self.tagFilters {
             HTTPHeaders["X-Algolia-TagFilters"] = tagFilters
         }
@@ -124,14 +134,20 @@ public class Client : NSObject {
         manager = Manager(HTTPHeaders: HTTPHeaders)
     }
     
+    // Helper for Obj-C
     public class func clientWithAppID(appID: String, apiKey: String) -> Client {
         return Client(appID: appID, apiKey: apiKey)
+    }
+    
+    // Helper for Obj-C
+    public class func clientWithQueryParameters(queryParameters: String, appID: String, apiKey: String) -> Client {
+        return Client(appID: appID, apiKey: apiKey, queryParameters: queryParameters)
     }
 
     /// Allow to set custom extra header.
     ///
-    /// :param: value value of the header
-    /// :param: forKey key of the header
+    /// - parameter value: value of the header
+    /// - parameter forKey: key of the header
     public func setExtraHeader(value: String, forKey key: String) {
         if (manager.session.configuration.HTTPAdditionalHeaders != nil) {
             manager.session.configuration.HTTPAdditionalHeaders!.updateValue(value, forKey: key)
@@ -152,7 +168,7 @@ public class Client : NSObject {
 
     /// Delete an index.
     ///
-    /// :param: indexName the name of index to delete
+    /// - parameter indexName: the name of index to delete
     /// :return: JSON Object in the handler containing a "deletedAt" attribute
     public func deleteIndex(indexName: String, block: CompletionHandler? = nil) {
         let path = "1/indexes/\(indexName.urlEncode())"
@@ -161,8 +177,8 @@ public class Client : NSObject {
 
     /// Move an existing index.
     ///
-    /// :param: srcIndexName the name of index to move.
-    /// :param: dstIndexName the new index name that will contains sourceIndexName (destination will be overriten if it already exist).
+    /// - parameter srcIndexName: the name of index to move.
+    /// - parameter dstIndexName: the new index name that will contains sourceIndexName (destination will be overriten if it already exist).
     public func moveIndex(srcIndexName: String, to dstIndexName: String, block: CompletionHandler? = nil) {
         let path = "1/indexes/\(srcIndexName.urlEncode())/operation"
         let request = [
@@ -175,8 +191,8 @@ public class Client : NSObject {
 
     /// Copy an existing index.
     ///
-    /// :param: srcIndexName the name of index to copy.
-    /// :param: dstIndexName the new index name that will contains a copy of sourceIndexName (destination will be overriten if it already exist).
+    /// - parameter srcIndexName: the name of index to copy.
+    /// - parameter dstIndexName: the new index name that will contains a copy of sourceIndexName (destination will be overriten if it already exist).
     public func copyIndex(srcIndexName: String, to dstIndexName: String, block: CompletionHandler? = nil) {
         let path = "1/indexes/\(srcIndexName.urlEncode())/operation"
         let request = [
@@ -194,8 +210,8 @@ public class Client : NSObject {
 
     /// Return last logs entries.
     ///
-    /// :param: offset Specify the first entry to retrieve (0-based, 0 is the most recent log entry).
-    /// :param: length Specify the maximum number of entries to retrieve starting at offset. Maximum allowed value: 1000.
+    /// - parameter offset: Specify the first entry to retrieve (0-based, 0 is the most recent log entry).
+    /// - parameter length: Specify the maximum number of entries to retrieve starting at offset. Maximum allowed value: 1000.
     public func getLogsWithOffset(offset: UInt, length: UInt, block: CompletionHandler) {
         let path = "1/logs?offset=\(offset)&length=\(length)"
         performHTTPQuery(path, method: .GET, body: nil, hostnames: readQueryHostnames, block: block)
@@ -203,8 +219,8 @@ public class Client : NSObject {
 
     /// Return last logs entries.
     ///
-    /// :param: offset Specify the first entry to retrieve (0-based, 0 is the most recent log entry).
-    /// :param: length Specify the maximum number of entries to retrieve starting at offset. Maximum allowed value: 1000.
+    /// - parameter offset: Specify the first entry to retrieve (0-based, 0 is the most recent log entry).
+    /// - parameter length: Specify the maximum number of entries to retrieve starting at offset. Maximum allowed value: 1000.
     public func getLogsWithType(type: String, offset: UInt, length: UInt, block: CompletionHandler) {
         let path = "1/logs?offset=\(offset)&length=\(length)&type=\(type)"
         performHTTPQuery(path, method: .GET, body: nil, hostnames: readQueryHostnames, block: block)
@@ -212,7 +228,7 @@ public class Client : NSObject {
 
     /// Get the index object initialized (no server call needed for initialization).
     ///
-    /// :param: indexName the name of index
+    /// - parameter indexName: the name of index
     public func getIndex(indexName: String) -> Index {
         return Index(client: self, indexName: indexName)
     }
@@ -236,7 +252,7 @@ public class Client : NSObject {
 
     /// Create a new user key
     ///
-    /// :param: acls The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
+    /// - parameter acls: The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
     public func addUserKey(acls: [String], block: CompletionHandler? = nil) {
         let request = ["acl": acls]
         performHTTPQuery("1/keys", method: .POST, body: request, hostnames: writeQueryHostnames, block: block)
@@ -244,10 +260,10 @@ public class Client : NSObject {
 
     /// Create a new user key
     ///
-    /// :param: acls The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
-    /// :param: withValidity The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
-    /// :param: maxQueriesPerIPPerHour Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
-    /// :param: maxHitsPerQuery Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
+    /// - parameter acls: The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
+    /// - parameter withValidity: The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
+    /// - parameter maxQueriesPerIPPerHour: Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
+    /// - parameter maxHitsPerQuery: Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
     public func addUserKey(acls: [String], withValidity validity: UInt, maxQueriesPerIPPerHour maxQueries: UInt, maxHitsPerQuery maxHits: UInt, block: CompletionHandler? = nil) {
         let request: [String: AnyObject] = [
             "acl": acls,
@@ -261,11 +277,11 @@ public class Client : NSObject {
 
     /// Create a new user key
     ///
-    /// :param: acls The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
-    /// :param: forIndexes restrict this new API key to specific index names
-    /// :param: withValidity The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
-    /// :param: maxQueriesPerIPPerHour Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
-    /// :param: maxHitsPerQuery Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
+    /// - parameter acls: The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
+    /// - parameter forIndexes: restrict this new API key to specific index names
+    /// - parameter withValidity: The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
+    /// - parameter maxQueriesPerIPPerHour: Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
+    /// - parameter maxHitsPerQuery: Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
     public func addUserKey(acls: [String], forIndexes indexes: [String], withValidity validity: UInt, maxQueriesPerIPPerHour maxQueries: UInt, maxHitsPerQuery maxHits: UInt, block: CompletionHandler? = nil) {
         let request: [String: AnyObject] = [
             "acl": acls,
@@ -280,8 +296,8 @@ public class Client : NSObject {
 
     /// Update a user key
     ///
-    /// :param: key The key to update
-    /// :param: withAcls The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
+    /// - parameter key: The key to update
+    /// - parameter withAcls: The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
     public func updateUserKey(key: String, withACL acls: [String], block: CompletionHandler? = nil) {
         let path = "1/keys/\(key)"
         let request = ["acl": acls]
@@ -290,11 +306,11 @@ public class Client : NSObject {
 
     /// Update a user key
     ///
-    /// :param: key The key to update
-    /// :param: withAcls The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
-    /// :param: andValidity The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
-    /// :param: maxQueriesPerIPPerHour Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
-    /// :param: maxHitsPerQuery Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
+    /// - parameter key: The key to update
+    /// - parameter withAcls: The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
+    /// - parameter andValidity: The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
+    /// - parameter maxQueriesPerIPPerHour: Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
+    /// - parameter maxHitsPerQuery: Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
     public func updateUserKey(key: String, withACL acls: [String], andValidity validity: UInt, maxQueriesPerIPPerHour maxQueries: UInt, maxHitsPerQuery maxHits: UInt, block: CompletionHandler? = nil) {
         let path = "1/keys/\(key)"
         let request: [String: AnyObject] = [
@@ -309,12 +325,12 @@ public class Client : NSObject {
 
     /// Update a user key
     ///
-    /// :param: key The key to update
-    /// :param: withAcls The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
-    /// :param: andValidity The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
-    /// :param: forIndexes restrict this API key to specific index names
-    /// :param: maxQueriesPerIPPerHour Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
-    /// :param: maxHitsPerQuery Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
+    /// - parameter key: The key to update
+    /// - parameter withAcls: The list of ACL for this key. The list can contains the following values (as String): search, addObject, deleteObject, deleteIndex, settings, editSettings
+    /// - parameter andValidity: The number of seconds after which the key will be automatically removed (0 means no time limit for this key)
+    /// - parameter forIndexes: restrict this API key to specific index names
+    /// - parameter maxQueriesPerIPPerHour: Specify the maximum number of API calls allowed from an IP address per hour.  Defaults to 0 (unlimited).
+    /// - parameter maxHitsPerQuery: Specify the maximum number of hits this API key can retrieve in one call. Defaults to 0 (unlimited)
     public func updateUserKey(key: String, withACL acls: [String], andValidity validity: UInt, forIndexes indexes: [String], maxQueriesPerIPPerHour maxQueries: UInt, maxHitsPerQuery maxHits: UInt, block: CompletionHandler? = nil) {
         let path = "1/keys/\(key)"
         let request: [String: AnyObject] = [
@@ -330,7 +346,7 @@ public class Client : NSObject {
 
     /// Query multiple indexes with one API call.
     ///
-    /// :param: queries An array of queries with the associated index (Array of Dictionnary object ["indexName": "targettedIndex", "query": QueryObject]).
+    /// - parameter queries: An array of queries with the associated index (Array of Dictionnary object ["indexName": "targettedIndex", "query": QueryObject]).
     public func multipleQueries(queries: [AnyObject], block: CompletionHandler? = nil) {
         let path = "1/indexes/*/queries"
 

@@ -48,14 +48,12 @@ code_sign() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Alamofire.framework'
   install_framework 'AlgoliaSearch.framework'
   install_framework 'Haneke.framework'
   install_framework 'PureLayout.framework'
   install_framework 'SnapKit.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Alamofire.framework'
   install_framework 'AlgoliaSearch.framework'
   install_framework 'Haneke.framework'
   install_framework 'PureLayout.framework'

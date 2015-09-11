@@ -32,7 +32,7 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
     super.init(nibName: nil, bundle: nil);
   }
 
-  required init(coder aDecoder: NSCoder) {
+  required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
   }
   
@@ -83,8 +83,8 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
     locationManager.delegate = self;
   }
   
-  func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-    location = locations[locations.count - 1] as! CLLocation;
+  func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+    location = locations[locations.count - 1] ;
     Constants.userLatitude = location.coordinate.latitude;
     Constants.userLongitude = location.coordinate.longitude;
   
@@ -130,8 +130,8 @@ class SearchController: UIViewController, UITextFieldDelegate, UITableViewDelega
   //MARK: Table View Data Source and Delegate
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    print(indexPath.row);
-    var cell : LocationTableViewCell = tableView.dequeueReusableCellWithIdentifier("LocationCell") as! LocationTableViewCell;
+    print(indexPath.row, terminator: "");
+    let cell : LocationTableViewCell = tableView.dequeueReusableCellWithIdentifier("LocationCell") as! LocationTableViewCell;
     cell.setFromData(dataset[indexPath.row], location:location);
     return cell;
   }

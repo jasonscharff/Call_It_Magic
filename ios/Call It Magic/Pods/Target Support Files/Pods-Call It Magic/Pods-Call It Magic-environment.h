@@ -6,12 +6,6 @@
 // project.
 
 
-// Alamofire
-#define COCOAPODS_POD_AVAILABLE_Alamofire
-#define COCOAPODS_VERSION_MAJOR_Alamofire 1
-#define COCOAPODS_VERSION_MINOR_Alamofire 3
-#define COCOAPODS_VERSION_PATCH_Alamofire 1
-
 // AlgoliaSearch-Client-Swift
 #define COCOAPODS_POD_AVAILABLE_AlgoliaSearch_Client_Swift
 #define COCOAPODS_VERSION_MAJOR_AlgoliaSearch_Client_Swift 1
@@ -33,6 +27,6 @@
 // SnapKit
 #define COCOAPODS_POD_AVAILABLE_SnapKit
 #define COCOAPODS_VERSION_MAJOR_SnapKit 0
-#define COCOAPODS_VERSION_MINOR_SnapKit 12
+#define COCOAPODS_VERSION_MINOR_SnapKit 13
 #define COCOAPODS_VERSION_PATCH_SnapKit 0
 

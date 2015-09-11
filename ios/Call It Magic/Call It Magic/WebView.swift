@@ -18,7 +18,7 @@ class WebView : UIViewController {
   override func viewDidLoad() {
     self.view.backgroundColor = UIColor.whiteColor();
     self.title = titleOfNav;
-    var webView = UIWebView();
+    let webView = UIWebView();
     webView.loadRequest(NSURLRequest(URL: NSURL(string: url)!));
     self.view.addSubview(webView);
     webView.autoPinEdgesToSuperviewEdges()

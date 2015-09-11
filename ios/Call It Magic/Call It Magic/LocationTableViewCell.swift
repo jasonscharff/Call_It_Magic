@@ -54,7 +54,7 @@ class LocationTableViewCell: UITableViewCell {
     setupLayout()
   }
 
-  required init(coder aDecoder: NSCoder) {
+  required init?(coder aDecoder: NSCoder) {
       fatalError("init(coder:) has not been implemented")
   }
   
@@ -81,8 +81,8 @@ class LocationTableViewCell: UITableViewCell {
     
     let request = MKDirectionsRequest()
     var mapItemForCurrent = MKMapItem.mapItemForCurrentLocation()
-    request.setSource(mapItemForCurrent)
-    request.setDestination(item);
+    request.setSource = mapItemForCurrent
+    request.setDestination = item;
     request.transportType = MKDirectionsTransportType.Automobile;
     request.requestsAlternateRoutes = false
     
@@ -116,9 +116,9 @@ class LocationTableViewCell: UITableViewCell {
   
   private func setLocation(latitude : Double, longitude : Double) {
     //Set map
-    var coord : CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude);
-    var span : MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.025, longitudeDelta: 0.025);
-    var region : MKCoordinateRegion = MKCoordinateRegion(center: coord, span: span)
+    let coord : CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude);
+    let span : MKCoordinateSpan = MKCoordinateSpan(latitudeDelta: 0.025, longitudeDelta: 0.025);
+    let region : MKCoordinateRegion = MKCoordinateRegion(center: coord, span: span)
     map.setRegion(region, animated: false);
     //Set pin
     annotation.coordinate = coord;
