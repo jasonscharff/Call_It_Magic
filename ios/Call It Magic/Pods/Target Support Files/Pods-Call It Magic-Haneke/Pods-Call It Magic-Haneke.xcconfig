@@ -1,1 +1,0 @@
-PODS_CALL_IT_MAGIC_HANEKE_OTHER_LDFLAGS = -framework "ImageIO"

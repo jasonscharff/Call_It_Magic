@@ -7,1710 +7,782 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B8E14D70C48F369653865F0 = {
-			isa = PBXBuildFile;
-			fileRef = EDDEAD592FD9CD0A85DDEEE2;
-		};
-		0C620AAF1EA4524895BBEE5F = {
-			isa = PBXBuildFile;
-			fileRef = 34CA005F4CE763BFF12BAF0A;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		1642F5CAAEDA5F937803D319 = {
-			isa = PBXBuildFile;
-			fileRef = 99E4402A7894322475571AB8;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		17B536DE68100742EA71280D = {
-			isa = PBXBuildFile;
-			fileRef = 6D75FD0D84788AAF0E112539;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		1CD7CE8794AAEA432D28B4AE = {
-			isa = PBXBuildFile;
-			fileRef = 5EA1AF7AFFB88E02FF182DE9;
-		};
-		1ECFD1AA224296D436C51E9B = {
-			isa = PBXBuildFile;
-			fileRef = 7F2AB49A3D151588B682E35B;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		200217B71C652478B9E784E6 = {
-			isa = PBXBuildFile;
-			fileRef = 2D8FA963D7F0649E6C2427AB;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		24CD00062947912B5D149B94 = {
-			isa = PBXBuildFile;
-			fileRef = CCC27C1B973FB0924B1BD0B4;
-		};
-		25B766EDA2A0B118ABD2E0C1 = {
-			isa = PBXBuildFile;
-			fileRef = 224753C8D0A99B1ADDFDC572;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		28DE5AF2F89A5ACDEDD7ECA7 = {
-			isa = PBXBuildFile;
-			fileRef = 8B2964FEC95470F08EC4B1EA;
-		};
-		2B9487BC7CEA3E55670E8850 = {
-			isa = PBXBuildFile;
-			fileRef = BFAEA51CE5A6719A01083E26;
-		};
-		33FE7FD5EAC1C93AF50B6AAB = {
-			isa = PBXBuildFile;
-			fileRef = 2486DDF85F928379EEF0BA73;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		36308C1565BD270FA8480A4C = {
-			isa = PBXBuildFile;
-			fileRef = 827ECD4B32A97A24C89807BD;
-		};
-		36DEC42C965DB33D12383CA7 = {
-			isa = PBXBuildFile;
-			fileRef = FB74B87FE00691D918EC1AEA;
-		};
-		3815E11AC1D36C111C54249E = {
-			isa = PBXBuildFile;
-			fileRef = CCC27C1B973FB0924B1BD0B4;
-		};
-		3EDF28B6733D596A3A6C9EC3 = {
-			isa = PBXBuildFile;
-			fileRef = 75AF7D752581353533D0399A;
-		};
-		3F02E653A7FEBA7F568DDC03 = {
-			isa = PBXBuildFile;
-			fileRef = 0EE2F5CB8AA45525E03D5E8B;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		42C6C7C4FF7E5411E79248BD = {
-			isa = PBXBuildFile;
-			fileRef = 1AAE49E69AAA38657B34B299;
-		};
-		43A78FEA2E571B9853C00159 = {
-			isa = PBXBuildFile;
-			fileRef = BD2CE6CE2479203F72B1081B;
-		};
-		43EBAC096C4A5E7FAA886EE7 = {
-			isa = PBXBuildFile;
-			fileRef = FC79EB46E75A5189101CA962;
-		};
-		4640F57AA5E81B603001C065 = {
-			isa = PBXBuildFile;
-			fileRef = 40A55BDCDA656503E58A5B3A;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		4C7C47F03FD2704F1F1C0F26 = {
-			isa = PBXBuildFile;
-			fileRef = 8C2C59204609648A449820C1;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		56A72244CBA6CCB271DC6343 = {
-			isa = PBXBuildFile;
-			fileRef = 135985E694EF05824721D8D4;
-		};
-		585A2030A0F9F4636EC2D00F = {
-			isa = PBXBuildFile;
-			fileRef = 3ACD87D2122A7EC8FF078F17;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		58D65C51797C00BD38AE0664 = {
-			isa = PBXBuildFile;
-			fileRef = 4BEBCEF8B642F14DFFD7EC50;
-		};
-		58D9066216D97B9154BF9BF1 = {
-			isa = PBXBuildFile;
-			fileRef = A298132F02034E3480A44DFA;
-		};
-		596F14E3F45D3E1A7A2B82E9 = {
-			isa = PBXBuildFile;
-			fileRef = B1625A9443D06C80205E1CF5;
-		};
-		5E9055E54D087E95478B22F3 = {
-			isa = PBXBuildFile;
-			fileRef = 60424ED632A740CE3260E42B;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		611A7D186C7E6904A753F5A2 = {
-			isa = PBXBuildFile;
-			fileRef = B6B6820AA35497C007B755E5;
-		};
-		628D08AB00FD41B193518103 = {
-			isa = PBXBuildFile;
-			fileRef = B1A5372C69591C8B9F638C65;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		67603B1D4E8F4F4F41CEC6D5 = {
-			isa = PBXBuildFile;
-			fileRef = 072C06C7A67DEC76386B8471;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		6E898EAE043DE2AE04A80678 = {
-			isa = PBXBuildFile;
-			fileRef = 391C3C3E000BBD8BDD06603A;
-		};
-		740C3ED7025371122E8B8973 = {
-			isa = PBXBuildFile;
-			fileRef = 8EB796554E7DB4B91E0E45D8;
-		};
-		798A1AB63711BF27FA9E8FF4 = {
-			isa = PBXBuildFile;
-			fileRef = BCB3C6E8E9CAF84D16B1EE31;
-		};
-		7A0ADC78A3520BCADA85BBE0 = {
-			isa = PBXBuildFile;
-			fileRef = 638D7E45958047E97488CEBE;
-		};
-		7BC090461E23B9F253FE2B91 = {
-			isa = PBXBuildFile;
-			fileRef = 8052D7028184267701D6EF85;
-		};
-		7CE22BF42BB4B7CEACF874EB = {
-			isa = PBXBuildFile;
-			fileRef = 7E09D8C1A43C5A47F545D137;
-		};
-		7DA63D51F1FE3B168EAFF273 = {
-			isa = PBXBuildFile;
-			fileRef = 56706467C1A1ACBC2CA96916;
-		};
-		81E19607296AF48024F02E49 = {
-			isa = PBXBuildFile;
-			fileRef = D1A0658DA19A921F5D750527;
-		};
-		81E84E2DB3CFB56719ED2CCA = {
-			isa = PBXBuildFile;
-			fileRef = A5ACE953CE0D081A71C9832F;
-		};
-		8A8A8C578ED189F8EB41A0DA = {
-			isa = PBXBuildFile;
-			fileRef = E5F6247431DDA0E9646D985E;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		8B2C6613759C4D4B04ADBD60 = {
-			isa = PBXBuildFile;
-			fileRef = 878332AE87143F2E7BFAAB55;
-		};
-		8E1B4B62BC64FE774E8205EE = {
-			isa = PBXBuildFile;
-			fileRef = A08897C4B0BF161222C9D15B;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		9A7EBDF54027EEA33ABF3AFD = {
-			isa = PBXBuildFile;
-			fileRef = C1DFC040A49E89B4776FA476;
-		};
-		9D091F8235881B78493ECDB8 = {
-			isa = PBXBuildFile;
-			fileRef = 691D372ABAAE85F476B89127;
-		};
-		A42F4755D8A94F86B2613B80 = {
-			isa = PBXBuildFile;
-			fileRef = CCC27C1B973FB0924B1BD0B4;
-		};
-		A4621944AE669DF7A851FD44 = {
-			isa = PBXBuildFile;
-			fileRef = 588C3F1F3238C81C6057623B;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		AB51FEB1E6B921B62D6E231F = {
-			isa = PBXBuildFile;
-			fileRef = A30048C4267144991C938DB4;
-		};
-		AF2D23FB75D34CD310566238 = {
-			isa = PBXBuildFile;
-			fileRef = 6BE9454E3B483913337EDC90;
-		};
-		B0B9D5BC8068364B141BA962 = {
-			isa = PBXBuildFile;
-			fileRef = D674BBA693CBD611156B98B9;
-		};
-		BD16D3C76E23171BC8416773 = {
-			isa = PBXBuildFile;
-			fileRef = 99B87005D811FC8F3DF05E68;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		BDE78A441649F01E738AEF9D = {
-			isa = PBXBuildFile;
-			fileRef = A0198A73DA1458519A4AD0CD;
-		};
-		C6D4ABB1F9DE186701ADC7DF = {
-			isa = PBXBuildFile;
-			fileRef = 88C3A17DFC4B086EA8C9D934;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		C7D79BDE23CDF3023689E720 = {
-			isa = PBXBuildFile;
-			fileRef = 519013811D4EB4ED517D5403;
-			settings = {
-				ATTRIBUTES = (
-					Public,
-				);
-			};
-		};
-		DB173CFBAC094B710E94C8DB = {
-			isa = PBXBuildFile;
-			fileRef = CCC27C1B973FB0924B1BD0B4;
-		};
-		DBF954B73B1D17490616BEF6 = {
-			isa = PBXBuildFile;
-			fileRef = C29DADB4D5027B72EBA89A7D;
-		};
-		DD0CDDEA398661278F44DE61 = {
-			isa = PBXBuildFile;
-			fileRef = DD0796BE40CC9432504F002D;
-		};
-		E0C68321870E9824282ECEF7 = {
-			isa = PBXBuildFile;
-			fileRef = 73CF6C20015CEA8B4050C26A;
-		};
-		E42FABF5B83BF7DB6AE61318 = {
-			isa = PBXBuildFile;
-			fileRef = 08DA7F86F248517DFE950685;
-		};
-		E8E6211C4C09EA8C9F757229 = {
-			isa = PBXBuildFile;
-			fileRef = A8E5A0768D1E9C91823A8CA2;
-		};
-		EB3657FE146AE70C03C1341A = {
-			isa = PBXBuildFile;
-			fileRef = CCC27C1B973FB0924B1BD0B4;
-		};
+		035F78E3E4BD07AA7B17031EA6171BE0 /* HNKSimpleFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C6A3BEE37EAEF4CF1E98D3CF601D245 /* HNKSimpleFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		091DD303842BAA33C1928E96CB768E6B /* HNKCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B11FDAB84A5F8894F123750F878C4246 /* HNKCache.m */; };
+		0F7E69FA43CE5A31D08816FA1C37E48B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CE5D7C9659B1A755D266081DA520B /* Helpers.swift */; };
+		1A089D36CCCBDD881CCD45446954B371 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E13811703F4D15A85A9D2260B00A6A8 /* SnapKit.swift */; };
+		1E9C78EDB0C708746A2D159CAF4E0BC0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC14FFABFF274FAE049F96B44ED9F4A5 /* Client.swift */; };
+		22146A3B71EE47900269447075267D49 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B446D865CE125AC740FDABBA29405 /* ConstraintItem.swift */; };
+		2241ABC30538E46F17BC59AFC645B6C5 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 191E1C6095DA6537B3B9AD63F2DABA12 /* NSArray+PureLayout.m */; };
+		2BE1BAC5D2CD3BA1A19E58DC2775C701 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F88439DCC01ECB0D7B649D03485A5D8 /* Query.swift */; };
+		32489188FB34057ADA75C39B7EF8AC28 /* AlgoliaSearch-Client-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2D9E072A24290B76AEACACB26CD8C3 /* AlgoliaSearch-Client-Swift-dummy.m */; };
+		36ACBC4ED14F7639AF872A588FF25888 /* Pods-Call It Magic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BED6E9E0B2608DF8A22A4A4C730479CA /* Pods-Call It Magic-dummy.m */; };
+		3713766095980E33C9D5FE12DA67E95E /* UIView+Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FAC5A4BFD58952520E18154A0E5FD8D /* UIView+Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38792B4D4276C59B21ACF9B4DE6ED4F5 /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFA4BCE4B185A782DD016F84B3BE0CF /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C82DAC4A708FB34E8EA66C82D08EAA2 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B605BCB86C161823225245B5EDBB7 /* View+SnapKit.swift */; };
+		40C283F04408D7C74CB6D9966B4CE10E /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDCF9208FAF09CC79F2DA4FA5683C82 /* ALView+PureLayout.m */; };
+		437CC4D4E1F7AB8B7BFCE006077304AA /* HNKDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E88C2516A25D7B69D74F7CA0C373E30F /* HNKDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4504040E60C4E397658AFFAA52084018 /* Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = BB10BBC22503E640AC49B7941D7184F5 /* Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		478C1CBF5A6885EFAADBC5DB874DA573 /* HNKDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F2D42DA8E0ACD1521259491EFB22859 /* HNKDiskCache.m */; };
+		4BBD27D305A8F559F44097727C523BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */; };
+		501F374B796E258597D3CD6A80EE8DAB /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB4621F74AC9331B422DEA16793CDED /* Cache.swift */; };
+		56A8D8DF6EEF6B6AADFACF95E029B4E5 /* UIView+Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = E8CA748D1550A3BA87EB2FE6CFD48B51 /* UIView+Haneke.m */; };
+		604AC93637F2CBB5D54D0950C2E56CBA /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11A7B60D7208B393697E6DBAC0309DA /* ConstraintMaker.swift */; };
+		6354BF1C514445C33F9B65DD18205535 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 913E7306AD4E255661D418473382CF54 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		681FE496594744E1E20C0BDA1D1CA66E /* UIImageView+Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0C1DD2E5126DA89D9ECB3823A42610 /* UIImageView+Haneke.m */; };
+		6BFDEC714855D29F024742DA5E9DBFB5 /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D367D337E0670CA623B6F343C738D610 /* SnapKit-dummy.m */; };
+		707AD145EA7F0B49E46F15A428DC09F2 /* HNKNetworkFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B44D5BB406FC003853F7770AC1CC338D /* HNKNetworkFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721C32C8FB7102FB10E4D22F86E9F2C7 /* AlgoliaSearch-Client-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97CF1289B527C7496D76769DE35B4C51 /* AlgoliaSearch-Client-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726CC8949AD9DB523732F497AEF566A0 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D7963F02D79E7AF9280CB2426B041D /* ConstraintRelation.swift */; };
+		782710BC583816BAC5D69FC695C1C486 /* UIImageView+Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = 253A6DF9A5E0837C4540B378BC655BA0 /* UIImageView+Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C6672FF5BC14E5A632F38FBCF4D84F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */; };
+		7F263EBF4C433183168EF0B2E14C1BD1 /* HNKSimpleFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 351C04F0FA85FA9DBD2FB9E1B97A7463 /* HNKSimpleFetcher.m */; };
+		804B994DD42A6A3C3A324D5377F1FB97 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799F700E0350C1622AF654FBAC56DC3E /* ConstraintAttributes.swift */; };
+		84ED7FEBE3F346BEA288422986F53438 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6701D0395AA53671F30906FDA34B59 /* Debugging.swift */; };
+		85E0A62EDF1B29F208623993EB92D9E7 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 413D4C68BCDED964834146EFB422C3B3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86D7CDF1DF0E7F8EF6B64A3D2DE329B7 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D45A9A34C20A034D0D004999B563 /* LayoutConstraint.swift */; };
+		8A0458CE472A2622116778685229911E /* HNKDiskFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 741C0300D2D2F42CC2E9D76CD30E71BF /* HNKDiskFetcher.m */; };
+		8A42E3EC15CA6EFC7A14FF66419B4E0A /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F5A0160929E8154C67BBC4B5A91B5C /* NSLayoutConstraint+PureLayout.m */; };
+		8FB29797E35802BE65A888432368F471 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91502F9112AF89303EFC5422A5FCD078 /* UIButton+Haneke.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A74DC3D018A7477DCD65BA46793AEFD /* UIButton+Haneke.m */; };
+		98DE61629DE81688A6D460FF03DD172A /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E05779740DB7A4882324BB0CC77FE83 /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D7C9A631C0EB1530C0DCFA887618587 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6726B2AA1DAAC6F94E1FF507AE34F /* ConstraintDescription.swift */; };
+		9DA27DA23022D9A927012BF5200F1194 /* Haneke-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 895024047C8AAC96C6AB40746B09451F /* Haneke-dummy.m */; };
+		A2BA0F76AF590D3D50BA538CCFCEF9E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */; };
+		AC2CEB47441383F2DBCAD1E6C719EBEB /* Haneke-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1383BE6F176463F2C80E19BA609F2A96 /* Haneke-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B12F19D2BD4393832C2CDEC13930A5E7 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B0270ACC0A1AAAC0088467BF0131477 /* Constraint.swift */; };
+		B288EB0BC836E6B9FFAF5714E7DFEE65 /* HNKNetworkFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 784F4D4027140FCB0080B8CA1409EDA8 /* HNKNetworkFetcher.m */; };
+		B2B8DA274F8F397158E9D33FFE049FFD /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76927A838B74013DE81260B84691E9 /* EdgeInsets.swift */; };
+		BEEF2FF4434A311B51CCAEA2D0BC4167 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */; };
+		BFDD71F2B234CC6B35707E7EC3C64865 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */; };
+		C07804D5CAE775845193B0BDEAE8153A /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 13DC162AF7BEBCA584CAF9D9CEAD8319 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C77E399C8BFED042D1EBB0B02EF3F58E /* HNKCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F5824D73700B1BF4C514B1686D53B5 /* HNKCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF78BD5A336D2E654DEBA1491C936521 /* HNKDiskFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE6378D3FBB1DEB66DD3260E78CD1C0 /* HNKDiskFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D424046F561DC68F90843281A813FCC1 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA7ED6ABAE9B6F6AC32B253E202F00 /* Network.swift */; };
+		D6396F30374D89C92804D2E895883714 /* Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4123E4AFD4492642409F6BFC27B7E /* Index.swift */; };
+		E1B68C67A2FCBF5D9C589E8330611227 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F570B556E8B77BB07794FFFF082792F2 /* ImageIO.framework */; };
+		E5FDC164B991716147897B51085E44BC /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0696EC05614BD3FFC625FD37F1B19F93 /* Type.swift */; };
+		E822E9813D45FF34F11862731B65F4D7 /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD3AB8195F74BFC43D6997F61F6F298 /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDD147D64BC86E5198D4E99B05028490 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00F6A7822756001C1AC412B0A1751A8 /* ViewController+SnapKit.swift */; };
+		F405A7F668D06EA2AD988287225AF467 /* Pods-Call It Magic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 375F93381F898180B423E8B6D56B078F /* Pods-Call It Magic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7DDAE900EED9ABD4430EAB819BBED9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */; };
+		F9A3864238BEAF7F67E75EF7417D7AF4 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBC3E333821E19620FAC1463F61C533 /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAFA3F28A91452C9545161B0980442E3 /* UIButton+Haneke.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED37D3A95FC4B9E39B87D90B76B16F0 /* UIButton+Haneke.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5356835CA7CEFF364B8C4E5C = {
+		307F3C2DAFE650F0119B88C01C7AF232 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A09430A0592B325986C5E965;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 764CB9CA2507579FC0D814DD;
-			remoteInfo = "Pods-Call It Magic-PureLayout";
+			remoteGlobalIDString = 4F59A338C8D57A5F78B58C83A567DCDD;
+			remoteInfo = Haneke;
 		};
-		86CFE58D8603B238C74DE8A1 = {
+		532ABC2162E8E98ADF7DBF68CCA61394 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A09430A0592B325986C5E965;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F8B502981FD27D748041DD4;
-			remoteInfo = "Pods-Call It Magic-AlgoliaSearch-Client-Swift";
+			remoteGlobalIDString = 913F01F2BA8FE4D17FAF3BEE7C7A6E2F;
+			remoteInfo = "AlgoliaSearch-Client-Swift";
 		};
-		ADE0BFB6553A662B7305D03F = {
+		82B0BCCF1D6970D1709010BF4E8F5C1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A09430A0592B325986C5E965;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2CF0734CE0B8FCD3DE14C8AB;
-			remoteInfo = "Pods-Call It Magic-SnapKit";
+			remoteGlobalIDString = 4EDA452517A913B556C7860F490D5FD3;
+			remoteInfo = SnapKit;
 		};
-		EB4CFD47C4EB4DF0B373FCDE = {
+		9E5188E86250BD66D829A24FC9FC13E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A09430A0592B325986C5E965;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7B55B30EEF14F1F28BE63CCA;
-			remoteInfo = "Pods-Call It Magic-Haneke";
+			remoteGlobalIDString = 8240A687A12B3496C485DFBEB80E79E2;
+			remoteInfo = PureLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		072C06C7A67DEC76386B8471 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = Haneke.h;
-			path = Haneke/Haneke.h;
-			sourceTree = "<group>";
-		};
-		07EEBF39DD61E33E9796BBAF = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Pods_Call_It_Magic.framework;
-			path = Pods_Call_It_Magic.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		08DA7F86F248517DFE950685 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = "View+SnapKit.swift";
-			path = "Source/View+SnapKit.swift";
-			sourceTree = "<group>";
-		};
-		08EC965035C59C300B8AC6B4 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			path = "Pods-Call It Magic-Haneke.modulemap";
-			sourceTree = "<group>";
-		};
-		0A70A4E01CAB65FEB8AFC0BB = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-SnapKit-Private.xcconfig";
-			sourceTree = "<group>";
-		};
-		0AF89747E7648F4D0D80774B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic.debug.xcconfig";
-			sourceTree = "<group>";
-		};
-		0EE2F5CB8AA45525E03D5E8B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "UIImageView+Haneke.h";
-			path = "Haneke/UIImageView+Haneke.h";
-			sourceTree = "<group>";
-		};
-		103F5786BE21D6A4EEEADEE2 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-AlgoliaSearch-Client-Swift-prefix.pch";
-			sourceTree = "<group>";
-		};
-		135985E694EF05824721D8D4 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "Pods-Call It Magic-Haneke-dummy.m";
-			sourceTree = "<group>";
-		};
-		14783F263D824E306862912D = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-PureLayout.xcconfig";
-			sourceTree = "<group>";
-		};
-		16487F07F7E7915A5AF86820 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		1AAE49E69AAA38657B34B299 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = HNKDiskFetcher.m;
-			path = Haneke/HNKDiskFetcher.m;
-			sourceTree = "<group>";
-		};
-		224753C8D0A99B1ADDFDC572 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "NSLayoutConstraint+PureLayout.h";
-			path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h";
-			sourceTree = "<group>";
-		};
-		23DBD0D40A70570AE4AE7D08 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-SnapKit-prefix.pch";
-			sourceTree = "<group>";
-		};
-		2486DDF85F928379EEF0BA73 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HNKDiskCache.h;
-			path = Haneke/HNKDiskCache.h;
-			sourceTree = "<group>";
-		};
-		2A73F1F12D61394B21E24F1C = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = SnapKit.framework;
-			path = SnapKit.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2D8FA963D7F0649E6C2427AB = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HNKNetworkFetcher.h;
-			path = Haneke/HNKNetworkFetcher.h;
-			sourceTree = "<group>";
-		};
-		3292A8D6839754E9FBD4B660 = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = Haneke.framework;
-			path = Haneke.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		34CA005F4CE763BFF12BAF0A = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HNKCache.h;
-			path = Haneke/HNKCache.h;
-			sourceTree = "<group>";
-		};
-		37AEEB327C874F0CAEC8D8B5 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-PureLayout-prefix.pch";
-			sourceTree = "<group>";
-		};
-		391C3C3E000BBD8BDD06603A = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = "UIView+Haneke.m";
-			path = "Haneke/UIView+Haneke.m";
-			sourceTree = "<group>";
-		};
-		3ACD87D2122A7EC8FF078F17 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HNKSimpleFetcher.h;
-			path = Haneke/HNKSimpleFetcher.h;
-			sourceTree = "<group>";
-		};
-		3FA19B3C3AC1D8B428ED8EF0 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = "Pods-Call It Magic-acknowledgements.plist";
-			sourceTree = "<group>";
-		};
-		3FB214EB495E0558AB3C0A64 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.script.sh;
-			path = "Pods-Call It Magic-resources.sh";
-			sourceTree = "<group>";
-		};
-		40526A6E082FDFE0711F2952 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-AlgoliaSearch-Client-Swift-Private.xcconfig";
-			sourceTree = "<group>";
-		};
-		40A55BDCDA656503E58A5B3A = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "ALView+PureLayout.h";
-			path = "PureLayout/PureLayout/ALView+PureLayout.h";
-			sourceTree = "<group>";
-		};
-		43EC9342F275641FC2809453 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-PureLayout-Private.xcconfig";
-			sourceTree = "<group>";
-		};
-		4BEBCEF8B642F14DFFD7EC50 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = LayoutConstraint.swift;
-			path = Source/LayoutConstraint.swift;
-			sourceTree = "<group>";
-		};
-		519013811D4EB4ED517D5403 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = PureLayout.h;
-			path = PureLayout/PureLayout/PureLayout.h;
-			sourceTree = "<group>";
-		};
-		56706467C1A1ACBC2CA96916 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Query.swift;
-			path = Source/Query.swift;
-			sourceTree = "<group>";
-		};
-		5701D6C54C8058996C41DB62 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		588C3F1F3238C81C6057623B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-Haneke-umbrella.h";
-			sourceTree = "<group>";
-		};
-		59C922F90BD429A2FC941341 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			path = "Pods-Call It Magic.modulemap";
-			sourceTree = "<group>";
-		};
-		5E1BE9429C5102E088C462ED = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			path = "Pods-Call It Magic-PureLayout.modulemap";
-			sourceTree = "<group>";
-		};
-		5EA1AF7AFFB88E02FF182DE9 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = "UIImageView+Haneke.m";
-			path = "Haneke/UIImageView+Haneke.m";
-			sourceTree = "<group>";
-		};
-		60424ED632A740CE3260E42B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "UIButton+Haneke.h";
-			path = "Haneke/UIButton+Haneke.h";
-			sourceTree = "<group>";
-		};
-		638D7E45958047E97488CEBE = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Client.swift;
-			path = Source/Client.swift;
-			sourceTree = "<group>";
-		};
-		691D372ABAAE85F476B89127 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = "NSArray+PureLayout.m";
-			path = "PureLayout/PureLayout/NSArray+PureLayout.m";
-			sourceTree = "<group>";
-		};
-		6BE9454E3B483913337EDC90 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Index.swift;
-			path = Source/Index.swift;
-			sourceTree = "<group>";
-		};
-		6D75FD0D84788AAF0E112539 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-umbrella.h";
-			sourceTree = "<group>";
-		};
-		73CF6C20015CEA8B4050C26A = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "Pods-Call It Magic-AlgoliaSearch-Client-Swift-dummy.m";
-			sourceTree = "<group>";
-		};
-		75AF7D752581353533D0399A = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = EdgeInsets.swift;
-			path = Source/EdgeInsets.swift;
-			sourceTree = "<group>";
-		};
-		762D42142CA9258A97B0EC7C = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = PureLayout.framework;
-			path = PureLayout.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7E09D8C1A43C5A47F545D137 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = ConstraintDescription.swift;
-			path = Source/ConstraintDescription.swift;
-			sourceTree = "<group>";
-		};
-		7EB970450AFBAC5C9CB0976F = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			path = "Pods-Call It Magic-SnapKit.modulemap";
-			sourceTree = "<group>";
-		};
-		7F2AB49A3D151588B682E35B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = PureLayoutDefines.h;
-			path = PureLayout/PureLayout/PureLayoutDefines.h;
-			sourceTree = "<group>";
-		};
-		8052D7028184267701D6EF85 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "Pods-Call It Magic-SnapKit-dummy.m";
-			sourceTree = "<group>";
-		};
-		827ECD4B32A97A24C89807BD = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = HNKDiskCache.m;
-			path = Haneke/HNKDiskCache.m;
-			sourceTree = "<group>";
-		};
-		878332AE87143F2E7BFAAB55 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = SnapKit.swift;
-			path = Source/SnapKit.swift;
-			sourceTree = "<group>";
-		};
-		87B427759C4B4FF3968E7014 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		88C3A17DFC4B086EA8C9D934 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-AlgoliaSearch-Client-Swift-umbrella.h";
-			sourceTree = "<group>";
-		};
-		8B2964FEC95470F08EC4B1EA = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = HNKNetworkFetcher.m;
-			path = Haneke/HNKNetworkFetcher.m;
-			sourceTree = "<group>";
-		};
-		8C2C59204609648A449820C1 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = HNKDiskFetcher.h;
-			path = Haneke/HNKDiskFetcher.h;
-			sourceTree = "<group>";
-		};
-		8EB796554E7DB4B91E0E45D8 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "Pods-Call It Magic-PureLayout-dummy.m";
-			sourceTree = "<group>";
-		};
-		8EC8B769A715BB36CA8605CE = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic.release.xcconfig";
-			sourceTree = "<group>";
-		};
-		9741DCF732458D6AD6BC34C0 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-Haneke-Private.xcconfig";
-			sourceTree = "<group>";
-		};
-		99B87005D811FC8F3DF05E68 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-SnapKit-umbrella.h";
-			sourceTree = "<group>";
-		};
-		99E4402A7894322475571AB8 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "PureLayout+Internal.h";
-			path = "PureLayout/PureLayout/PureLayout+Internal.h";
-			sourceTree = "<group>";
-		};
-		A0198A73DA1458519A4AD0CD = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Constraint.swift;
-			path = Source/Constraint.swift;
-			sourceTree = "<group>";
-		};
-		A08897C4B0BF161222C9D15B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-PureLayout-umbrella.h";
-			sourceTree = "<group>";
-		};
-		A298132F02034E3480A44DFA = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = "ViewController+SnapKit.swift";
-			path = "Source/ViewController+SnapKit.swift";
-			sourceTree = "<group>";
-		};
-		A30048C4267144991C938DB4 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = HNKCache.m;
-			path = Haneke/HNKCache.m;
-			sourceTree = "<group>";
-		};
-		A5ACE953CE0D081A71C9832F = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = "ALView+PureLayout.m";
-			path = "PureLayout/PureLayout/ALView+PureLayout.m";
-			sourceTree = "<group>";
-		};
-		A8E5A0768D1E9C91823A8CA2 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Helpers.swift;
-			path = Source/Helpers.swift;
-			sourceTree = "<group>";
-		};
-		AC2EF74F6AE665E0E3CA5A76 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		B1625A9443D06C80205E1CF5 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = "UIButton+Haneke.m";
-			path = "Haneke/UIButton+Haneke.m";
-			sourceTree = "<group>";
-		};
-		B1A5372C69591C8B9F638C65 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "NSArray+PureLayout.h";
-			path = "PureLayout/PureLayout/NSArray+PureLayout.h";
-			sourceTree = "<group>";
-		};
-		B6B6820AA35497C007B755E5 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Debugging.swift;
-			path = Source/Debugging.swift;
-			sourceTree = "<group>";
-		};
-		BC58FF06152A6A0D72C81964 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-AlgoliaSearch-Client-Swift.xcconfig";
-			sourceTree = "<group>";
-		};
-		BC65BAB53D370B08CCAC4BF4 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.plist.xml;
-			path = Info.plist;
-			sourceTree = "<group>";
-		};
-		BCB3C6E8E9CAF84D16B1EE31 = {
-			isa = PBXFileReference;
-			lastKnownFileType = wrapper.framework;
-			name = ImageIO.framework;
-			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/ImageIO.framework;
-			sourceTree = DEVELOPER_DIR;
-		};
-		BD2CE6CE2479203F72B1081B = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Network.swift;
-			path = Source/Network.swift;
-			sourceTree = "<group>";
-		};
-		BE45A8F604F19FB61115BF86 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-Haneke.xcconfig";
-			sourceTree = "<group>";
-		};
-		BFAEA51CE5A6719A01083E26 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Type.swift;
-			path = Source/Type.swift;
-			sourceTree = "<group>";
-		};
-		C1DFC040A49E89B4776FA476 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = Cache.swift;
-			path = Source/Cache.swift;
-			sourceTree = "<group>";
-		};
-		C29DADB4D5027B72EBA89A7D = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = ConstraintMaker.swift;
-			path = Source/ConstraintMaker.swift;
-			sourceTree = "<group>";
-		};
-		C926971732CBE78BE4426FAB = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.script.sh;
-			path = "Pods-Call It Magic-frameworks.sh";
-			sourceTree = "<group>";
-		};
-		CCC27C1B973FB0924B1BD0B4 = {
-			isa = PBXFileReference;
-			lastKnownFileType = wrapper.framework;
-			name = Foundation.framework;
-			path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework;
-			sourceTree = DEVELOPER_DIR;
-		};
-		D1A0658DA19A921F5D750527 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = ConstraintRelation.swift;
-			path = Source/ConstraintRelation.swift;
-			sourceTree = "<group>";
-		};
-		D3D043419E6FD6DB94E66162 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-environment.h";
-			sourceTree = "<group>";
-		};
-		D674BBA693CBD611156B98B9 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = "NSLayoutConstraint+PureLayout.m";
-			path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m";
-			sourceTree = "<group>";
-		};
-		DD0796BE40CC9432504F002D = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = ConstraintItem.swift;
-			path = Source/ConstraintItem.swift;
-			sourceTree = "<group>";
-		};
-		DFFA124B28D65058E1C76779 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text;
-			name = Podfile;
-			path = ../Podfile;
-			sourceTree = SOURCE_ROOT;
-			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
-		};
-		E4CD3C661ADC886E0ACFD862 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			path = "Pods-Call It Magic-AlgoliaSearch-Client-Swift.modulemap";
-			sourceTree = "<group>";
-		};
-		E5F6247431DDA0E9646D985E = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			name = "UIView+Haneke.h";
-			path = "Haneke/UIView+Haneke.h";
-			sourceTree = "<group>";
-		};
-		E6241FBB166676BE8C3E3105 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text.xcconfig;
-			path = "Pods-Call It Magic-SnapKit.xcconfig";
-			sourceTree = "<group>";
-		};
-		E85E0C6C594A1C592C5B1576 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.h;
-			path = "Pods-Call It Magic-Haneke-prefix.pch";
-			sourceTree = "<group>";
-		};
-		E86004642A193338EAAAAFD6 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = text;
-			path = "Pods-Call It Magic-acknowledgements.markdown";
-			sourceTree = "<group>";
-		};
-		EDDEAD592FD9CD0A85DDEEE2 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			path = "Pods-Call It Magic-dummy.m";
-			sourceTree = "<group>";
-		};
-		FB74B87FE00691D918EC1AEA = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.swift;
-			name = ConstraintAttributes.swift;
-			path = Source/ConstraintAttributes.swift;
-			sourceTree = "<group>";
-		};
-		FC79EB46E75A5189101CA962 = {
-			isa = PBXFileReference;
-			includeInIndex = 1;
-			lastKnownFileType = sourcecode.c.objc;
-			name = HNKSimpleFetcher.m;
-			path = Haneke/HNKSimpleFetcher.m;
-			sourceTree = "<group>";
-		};
-		FF0192B60E57FD8AB75BA36F = {
-			isa = PBXFileReference;
-			explicitFileType = wrapper.framework;
-			includeInIndex = 0;
-			name = AlgoliaSearch.framework;
-			path = AlgoliaSearch.framework;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
+		0696EC05614BD3FFC625FD37F1B19F93 /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = Source/Type.swift; sourceTree = "<group>"; };
+		0A76927A838B74013DE81260B84691E9 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		0ED37D3A95FC4B9E39B87D90B76B16F0 /* UIButton+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Haneke.h"; path = "Haneke/UIButton+Haneke.h"; sourceTree = "<group>"; };
+		0FAC5A4BFD58952520E18154A0E5FD8D /* UIView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Haneke.h"; path = "Haneke/UIView+Haneke.h"; sourceTree = "<group>"; };
+		0FBC3E333821E19620FAC1463F61C533 /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		1383BE6F176463F2C80E19BA609F2A96 /* Haneke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haneke-umbrella.h"; sourceTree = "<group>"; };
+		13DC162AF7BEBCA584CAF9D9CEAD8319 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		1462DBCECEB3324E06E3C706192E140F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15349E8089D4F3197B0FBAFE08800C24 /* Haneke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Haneke.xcconfig; sourceTree = "<group>"; };
+		16C4E83ED688894E89A5CFFFA6A2D0E2 /* Pods-Call It Magic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Call It Magic-acknowledgements.plist"; sourceTree = "<group>"; };
+		17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		191E1C6095DA6537B3B9AD63F2DABA12 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		1D0C1DD2E5126DA89D9ECB3823A42610 /* UIImageView+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Haneke.m"; path = "Haneke/UIImageView+Haneke.m"; sourceTree = "<group>"; };
+		1F2D42DA8E0ACD1521259491EFB22859 /* HNKDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKDiskCache.m; path = Haneke/HNKDiskCache.m; sourceTree = "<group>"; };
+		1F6095C5B8EAEAADD96B43998E581FAE /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		24CF19E04129F827C46E4D556470E89F /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		253A6DF9A5E0837C4540B378BC655BA0 /* UIImageView+Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Haneke.h"; path = "Haneke/UIImageView+Haneke.h"; sourceTree = "<group>"; };
+		2A5B605BCB86C161823225245B5EDBB7 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		2B0270ACC0A1AAAC0088467BF0131477 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		351C04F0FA85FA9DBD2FB9E1B97A7463 /* HNKSimpleFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKSimpleFetcher.m; path = Haneke/HNKSimpleFetcher.m; sourceTree = "<group>"; };
+		375F93381F898180B423E8B6D56B078F /* Pods-Call It Magic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Call It Magic-umbrella.h"; sourceTree = "<group>"; };
+		3DBD3F68F708AA6E6115CA4B4FCA0258 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F88439DCC01ECB0D7B649D03485A5D8 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Source/Query.swift; sourceTree = "<group>"; };
+		413D4C68BCDED964834146EFB422C3B3 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		42CD872CC115A0816A21BEA8FD54531C /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		42ED0AB350E4E18A6FC6AE0D8DED061B /* AlgoliaSearch-Client-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlgoliaSearch-Client-Swift-prefix.pch"; sourceTree = "<group>"; };
+		463EA3D7F02A7814727199C961AB8F13 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		50FEF8EE3C99088012F547E9EF6CC0DD /* AlgoliaSearch-Client-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AlgoliaSearch-Client-Swift.modulemap"; sourceTree = "<group>"; };
+		5B209854FD2E0F3D4FC69AD2DB43386E /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		5BC7CE7BEFB7A0B282C8DCC08AE10EE6 /* Haneke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Haneke.modulemap; sourceTree = "<group>"; };
+		609B1665F70B15D886D691518ADA3ECC /* Pods-Call It Magic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Call It Magic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		61FF1041D4D76E73E378B45E6CB7C146 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63AB0138F54FF8B92EECED4C2D038A38 /* Pods-Call It Magic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Call It Magic.debug.xcconfig"; sourceTree = "<group>"; };
+		6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DCF007A22E91D2772DCEE9FA97DE861 /* SnapKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SnapKit-Private.xcconfig"; sourceTree = "<group>"; };
+		6E05779740DB7A4882324BB0CC77FE83 /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		6E13811703F4D15A85A9D2260B00A6A8 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		6FDCF9208FAF09CC79F2DA4FA5683C82 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		728CB9D4CD5D1ECB85361E954F74B72F /* Pods-Call It Magic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Call It Magic.release.xcconfig"; sourceTree = "<group>"; };
+		741C0300D2D2F42CC2E9D76CD30E71BF /* HNKDiskFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKDiskFetcher.m; path = Haneke/HNKDiskFetcher.m; sourceTree = "<group>"; };
+		74ED7F1B948421B32B4AEAB6B18EDD23 /* Haneke-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Haneke-prefix.pch"; sourceTree = "<group>"; };
+		7696AA50C4BCD1DCF600E9396CBBF7BD /* AlgoliaSearch-Client-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlgoliaSearch-Client-Swift.xcconfig"; sourceTree = "<group>"; };
+		784F4D4027140FCB0080B8CA1409EDA8 /* HNKNetworkFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKNetworkFetcher.m; path = Haneke/HNKNetworkFetcher.m; sourceTree = "<group>"; };
+		799F700E0350C1622AF654FBAC56DC3E /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		79D7963F02D79E7AF9280CB2426B041D /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		79F5824D73700B1BF4C514B1686D53B5 /* HNKCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKCache.h; path = Haneke/HNKCache.h; sourceTree = "<group>"; };
+		7A0CE5D7C9659B1A755D266081DA520B /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Helpers.swift; sourceTree = "<group>"; };
+		7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		80C04A595A38EC95341016FE4562B90A /* Haneke-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Haneke-Private.xcconfig"; sourceTree = "<group>"; };
+		84E4123E4AFD4492642409F6BFC27B7E /* Index.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Index.swift; path = Source/Index.swift; sourceTree = "<group>"; };
+		88CA73F3A4371674B84197112ACBC9A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895024047C8AAC96C6AB40746B09451F /* Haneke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Haneke-dummy.m"; sourceTree = "<group>"; };
+		8A74DC3D018A7477DCD65BA46793AEFD /* UIButton+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Haneke.m"; path = "Haneke/UIButton+Haneke.m"; sourceTree = "<group>"; };
+		913E7306AD4E255661D418473382CF54 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		97CF1289B527C7496D76769DE35B4C51 /* AlgoliaSearch-Client-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlgoliaSearch-Client-Swift-umbrella.h"; sourceTree = "<group>"; };
+		97F5A0160929E8154C67BBC4B5A91B5C /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		9B9F48C5ED4B1E8C18219AC7D39AB75D /* AlgoliaSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlgoliaSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C6A3BEE37EAEF4CF1E98D3CF601D245 /* HNKSimpleFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKSimpleFetcher.h; path = Haneke/HNKSimpleFetcher.h; sourceTree = "<group>"; };
+		9CD3AB8195F74BFC43D6997F61F6F298 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		A00F6A7822756001C1AC412B0A1751A8 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		A84BA9758BC61B94BED44CF5BD04AF2A /* Pods-Call It Magic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Call It Magic-frameworks.sh"; sourceTree = "<group>"; };
+		A948A7EC185661661E42CCA167BC44B6 /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		AC14FFABFF274FAE049F96B44ED9F4A5 /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Source/Client.swift; sourceTree = "<group>"; };
+		B11FDAB84A5F8894F123750F878C4246 /* HNKCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HNKCache.m; path = Haneke/HNKCache.m; sourceTree = "<group>"; };
+		B32F546D38F0A66A6C0C17CD5F41D5D8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B44D5BB406FC003853F7770AC1CC338D /* HNKNetworkFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKNetworkFetcher.h; path = Haneke/HNKNetworkFetcher.h; sourceTree = "<group>"; };
+		B8C6B68039EBA778E4224D376C368AF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB10BBC22503E640AC49B7941D7184F5 /* Haneke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Haneke.h; path = Haneke/Haneke.h; sourceTree = "<group>"; };
+		BED6E9E0B2608DF8A22A4A4C730479CA /* Pods-Call It Magic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Call It Magic-dummy.m"; sourceTree = "<group>"; };
+		C3700F09F55A902C8813C575F113D9E0 /* PureLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PureLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		C55B3341689D5FECB265B0C7644D0EB0 /* AlgoliaSearch-Client-Swift-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlgoliaSearch-Client-Swift-Private.xcconfig"; sourceTree = "<group>"; };
+		CA6701D0395AA53671F30906FDA34B59 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		D367D337E0670CA623B6F343C738D610 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		D77B6998E807A513B007301BB569A25A /* Pods-Call It Magic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Call It Magic-resources.sh"; sourceTree = "<group>"; };
+		D947C51AB71B8DFB714B6C761B37CBF7 /* Pods_Call_It_Magic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Call_It_Magic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAFA4BCE4B185A782DD016F84B3BE0CF /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		DB44D45A9A34C20A034D0D004999B563 /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		DCAA7ED6ABAE9B6F6AC32B253E202F00 /* Network.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Network.swift; path = Source/Network.swift; sourceTree = "<group>"; };
+		E11A7B60D7208B393697E6DBAC0309DA /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		E176F316F08557E0203161A0437F32EA /* Haneke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Haneke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E88C2516A25D7B69D74F7CA0C373E30F /* HNKDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKDiskCache.h; path = Haneke/HNKDiskCache.h; sourceTree = "<group>"; };
+		E8CA748D1550A3BA87EB2FE6CFD48B51 /* UIView+Haneke.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Haneke.m"; path = "Haneke/UIView+Haneke.m"; sourceTree = "<group>"; };
+		EBE6378D3FBB1DEB66DD3260E78CD1C0 /* HNKDiskFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HNKDiskFetcher.h; path = Haneke/HNKDiskFetcher.h; sourceTree = "<group>"; };
+		EDC6726B2AA1DAAC6F94E1FF507AE34F /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		EEB4621F74AC9331B422DEA16793CDED /* Cache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cache.swift; path = Source/Cache.swift; sourceTree = "<group>"; };
+		F570B556E8B77BB07794FFFF082792F2 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		F57C17BC19E4D9C0616206D6727E02C6 /* Pods-Call It Magic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Call It Magic.modulemap"; sourceTree = "<group>"; };
+		F79B446D865CE125AC740FDABBA29405 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		FB2D9E072A24290B76AEACACB26CD8C3 /* AlgoliaSearch-Client-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlgoliaSearch-Client-Swift-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0EBC723FE556F3785902B444 = {
+		0E49307FB0E4A7033F9E52C846986F32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A42F4755D8A94F86B2613B80,
+				4BBD27D305A8F559F44097727C523BE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B7E4805E6A3949349D3EB75 = {
+		50CF6B736D50128C4E5CFE912E79B7A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24CD00062947912B5D149B94,
+				F7DDAE900EED9ABD4430EAB819BBED9C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F27E7C7C7639C6641AC8E66 = {
+		8D982826564F33040944F955F4866DBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3815E11AC1D36C111C54249E,
+				7C6672FF5BC14E5A632F38FBCF4D84F6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B1140F25F7B3073DC3DC0B0 = {
+		9BA643FEFD2B178ADAFA58CA35010545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB3657FE146AE70C03C1341A,
+				A2BA0F76AF590D3D50BA538CCFCEF9E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8521C54A34E7AC2CB9936003 = {
+		F1ABDE45D52B23EDF1A63232C0CF85B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB173CFBAC094B710E94C8DB,
-				798A1AB63711BF27FA9E8FF4,
+				BFDD71F2B234CC6B35707E7EC3C64865 /* Foundation.framework in Frameworks */,
+				E1B68C67A2FCBF5D9C589E8330611227 /* ImageIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C9BC3CE3E31077172A52D85 = {
+		21C458FB9A6A0D408F50A6AC0D96B7D9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CCC27C1B973FB0924B1BD0B4,
-				BCB3C6E8E9CAF84D16B1EE31,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		10E591083CA58EFFFD9799F6 = {
-			isa = PBXGroup;
-			children = (
-				AC2EF74F6AE665E0E3CA5A76,
-				E4CD3C661ADC886E0ACFD862,
-				BC58FF06152A6A0D72C81964,
-				40526A6E082FDFE0711F2952,
-				73CF6C20015CEA8B4050C26A,
-				103F5786BE21D6A4EEEADEE2,
-				88C3A17DFC4B086EA8C9D934,
+				B8C6B68039EBA778E4224D376C368AF0 /* Info.plist */,
+				1F6095C5B8EAEAADD96B43998E581FAE /* PureLayout.modulemap */,
+				A948A7EC185661661E42CCA167BC44B6 /* PureLayout.xcconfig */,
+				C3700F09F55A902C8813C575F113D9E0 /* PureLayout-Private.xcconfig */,
+				7ADC5572B76BA1CB325993B5EB36DD36 /* PureLayout-dummy.m */,
+				5B209854FD2E0F3D4FC69AD2DB43386E /* PureLayout-prefix.pch */,
+				17DA7E900B1E7945C8B8CE59D225F706 /* PureLayout-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift";
+			path = "../Target Support Files/PureLayout";
 			sourceTree = "<group>";
 		};
-		22B3E7F11E932A75B1FCD181 = {
+		3A276FC4C85F40FBA82A90172E80DB19 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5701D6C54C8058996C41DB62,
-				7EB970450AFBAC5C9CB0976F,
-				E6241FBB166676BE8C3E3105,
-				0A70A4E01CAB65FEB8AFC0BB,
-				8052D7028184267701D6EF85,
-				23DBD0D40A70570AE4AE7D08,
-				99B87005D811FC8F3DF05E68,
+				5BC7CE7BEFB7A0B282C8DCC08AE10EE6 /* Haneke.modulemap */,
+				15349E8089D4F3197B0FBAFE08800C24 /* Haneke.xcconfig */,
+				80C04A595A38EC95341016FE4562B90A /* Haneke-Private.xcconfig */,
+				895024047C8AAC96C6AB40746B09451F /* Haneke-dummy.m */,
+				74ED7F1B948421B32B4AEAB6B18EDD23 /* Haneke-prefix.pch */,
+				1383BE6F176463F2C80E19BA609F2A96 /* Haneke-umbrella.h */,
+				1462DBCECEB3324E06E3C706192E140F /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pods-Call It Magic-SnapKit";
+			path = "../Target Support Files/Haneke";
 			sourceTree = "<group>";
 		};
-		2CAA77EC6F71808BEBC306C1 = {
+		424F89410105E5E6922E694A1A934AD1 /* AlgoliaSearch-Client-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				0C9BC3CE3E31077172A52D85,
+				EEB4621F74AC9331B422DEA16793CDED /* Cache.swift */,
+				AC14FFABFF274FAE049F96B44ED9F4A5 /* Client.swift */,
+				7A0CE5D7C9659B1A755D266081DA520B /* Helpers.swift */,
+				84E4123E4AFD4492642409F6BFC27B7E /* Index.swift */,
+				DCAA7ED6ABAE9B6F6AC32B253E202F00 /* Network.swift */,
+				3F88439DCC01ECB0D7B649D03485A5D8 /* Query.swift */,
+				0696EC05614BD3FFC625FD37F1B19F93 /* Type.swift */,
+				D1B7AF98BFD1D8B40201480554D8C33B /* Support Files */,
+			);
+			path = "AlgoliaSearch-Client-Swift";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC90184885EB76A9739077FF10334C /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		40F12A044FDC88D8C12441AC = {
+		598E7E8D41BD72D7C2DDA00F988B89F9 /* Haneke */ = {
 			isa = PBXGroup;
 			children = (
-				A0198A73DA1458519A4AD0CD,
-				FB74B87FE00691D918EC1AEA,
-				7E09D8C1A43C5A47F545D137,
-				DD0796BE40CC9432504F002D,
-				C29DADB4D5027B72EBA89A7D,
-				D1A0658DA19A921F5D750527,
-				B6B6820AA35497C007B755E5,
-				75AF7D752581353533D0399A,
-				4BEBCEF8B642F14DFFD7EC50,
-				878332AE87143F2E7BFAAB55,
-				08DA7F86F248517DFE950685,
-				A298132F02034E3480A44DFA,
-				22B3E7F11E932A75B1FCD181,
+				79F5824D73700B1BF4C514B1686D53B5 /* HNKCache.h */,
+				B11FDAB84A5F8894F123750F878C4246 /* HNKCache.m */,
+				E88C2516A25D7B69D74F7CA0C373E30F /* HNKDiskCache.h */,
+				1F2D42DA8E0ACD1521259491EFB22859 /* HNKDiskCache.m */,
+				EBE6378D3FBB1DEB66DD3260E78CD1C0 /* HNKDiskFetcher.h */,
+				741C0300D2D2F42CC2E9D76CD30E71BF /* HNKDiskFetcher.m */,
+				B44D5BB406FC003853F7770AC1CC338D /* HNKNetworkFetcher.h */,
+				784F4D4027140FCB0080B8CA1409EDA8 /* HNKNetworkFetcher.m */,
+				9C6A3BEE37EAEF4CF1E98D3CF601D245 /* HNKSimpleFetcher.h */,
+				351C04F0FA85FA9DBD2FB9E1B97A7463 /* HNKSimpleFetcher.m */,
+				BB10BBC22503E640AC49B7941D7184F5 /* Haneke.h */,
+				0ED37D3A95FC4B9E39B87D90B76B16F0 /* UIButton+Haneke.h */,
+				8A74DC3D018A7477DCD65BA46793AEFD /* UIButton+Haneke.m */,
+				253A6DF9A5E0837C4540B378BC655BA0 /* UIImageView+Haneke.h */,
+				1D0C1DD2E5126DA89D9ECB3823A42610 /* UIImageView+Haneke.m */,
+				0FAC5A4BFD58952520E18154A0E5FD8D /* UIView+Haneke.h */,
+				E8CA748D1550A3BA87EB2FE6CFD48B51 /* UIView+Haneke.m */,
+				3A276FC4C85F40FBA82A90172E80DB19 /* Support Files */,
 			);
-			name = SnapKit;
-			path = SnapKit;
-			sourceTree = "<group>";
-		};
-		5D84BAF3786EADCD0A21F606 = {
-			isa = PBXGroup;
-			children = (
-				87B427759C4B4FF3968E7014,
-				08EC965035C59C300B8AC6B4,
-				BE45A8F604F19FB61115BF86,
-				9741DCF732458D6AD6BC34C0,
-				135985E694EF05824721D8D4,
-				E85E0C6C594A1C592C5B1576,
-				588C3F1F3238C81C6057623B,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Call It Magic-Haneke";
-			sourceTree = "<group>";
-		};
-		6370D8F2AC28F0A713B4E4AB = {
-			isa = PBXGroup;
-			children = (
-				DFFA124B28D65058E1C76779,
-				2CAA77EC6F71808BEBC306C1,
-				7A7B0B427CD86F3EA2E13132,
-				8237FC967E03AB0BF159E7AA,
-				86F3CB1D645BE0D86FA412AA,
-			);
-			sourceTree = "<group>";
-		};
-		7A7B0B427CD86F3EA2E13132 = {
-			isa = PBXGroup;
-			children = (
-				CD9373A31F1887598B9FD4F7,
-				9B30681C26F1FD4918E5692A,
-				E57842D4ED914C6D6B66D883,
-				40F12A044FDC88D8C12441AC,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8237FC967E03AB0BF159E7AA = {
-			isa = PBXGroup;
-			children = (
-				FF0192B60E57FD8AB75BA36F,
-				3292A8D6839754E9FBD4B660,
-				07EEBF39DD61E33E9796BBAF,
-				762D42142CA9258A97B0EC7C,
-				2A73F1F12D61394B21E24F1C,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		86F3CB1D645BE0D86FA412AA = {
-			isa = PBXGroup;
-			children = (
-				E23DA86C1A9289D3334EC531,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9B30681C26F1FD4918E5692A = {
-			isa = PBXGroup;
-			children = (
-				34CA005F4CE763BFF12BAF0A,
-				A30048C4267144991C938DB4,
-				2486DDF85F928379EEF0BA73,
-				827ECD4B32A97A24C89807BD,
-				8C2C59204609648A449820C1,
-				1AAE49E69AAA38657B34B299,
-				2D8FA963D7F0649E6C2427AB,
-				8B2964FEC95470F08EC4B1EA,
-				3ACD87D2122A7EC8FF078F17,
-				FC79EB46E75A5189101CA962,
-				072C06C7A67DEC76386B8471,
-				60424ED632A740CE3260E42B,
-				B1625A9443D06C80205E1CF5,
-				0EE2F5CB8AA45525E03D5E8B,
-				5EA1AF7AFFB88E02FF182DE9,
-				E5F6247431DDA0E9646D985E,
-				391C3C3E000BBD8BDD06603A,
-				5D84BAF3786EADCD0A21F606,
-			);
-			name = Haneke;
 			path = Haneke;
 			sourceTree = "<group>";
 		};
-		AC7060DB9A208892F6DE0BE0 = {
+		6768A0388A32CF44918CFCA70BA3661F /* PureLayout */ = {
 			isa = PBXGroup;
 			children = (
-				16487F07F7E7915A5AF86820,
-				5E1BE9429C5102E088C462ED,
-				14783F263D824E306862912D,
-				43EC9342F275641FC2809453,
-				8EB796554E7DB4B91E0E45D8,
-				37AEEB327C874F0CAEC8D8B5,
-				A08897C4B0BF161222C9D15B,
+				13DC162AF7BEBCA584CAF9D9CEAD8319 /* ALView+PureLayout.h */,
+				6FDCF9208FAF09CC79F2DA4FA5683C82 /* ALView+PureLayout.m */,
+				913E7306AD4E255661D418473382CF54 /* NSArray+PureLayout.h */,
+				191E1C6095DA6537B3B9AD63F2DABA12 /* NSArray+PureLayout.m */,
+				9CD3AB8195F74BFC43D6997F61F6F298 /* NSLayoutConstraint+PureLayout.h */,
+				97F5A0160929E8154C67BBC4B5A91B5C /* NSLayoutConstraint+PureLayout.m */,
+				6E05779740DB7A4882324BB0CC77FE83 /* PureLayout.h */,
+				DAFA4BCE4B185A782DD016F84B3BE0CF /* PureLayout+Internal.h */,
+				0FBC3E333821E19620FAC1463F61C533 /* PureLayoutDefines.h */,
+				21C458FB9A6A0D408F50A6AC0D96B7D9 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-Call It Magic-PureLayout";
+			path = PureLayout;
 			sourceTree = "<group>";
 		};
-		CD9373A31F1887598B9FD4F7 = {
+		7C9ADF30D855EFF325D06CAB85735595 /* Pods-Call It Magic */ = {
 			isa = PBXGroup;
 			children = (
-				C1DFC040A49E89B4776FA476,
-				638D7E45958047E97488CEBE,
-				A8E5A0768D1E9C91823A8CA2,
-				6BE9454E3B483913337EDC90,
-				BD2CE6CE2479203F72B1081B,
-				56706467C1A1ACBC2CA96916,
-				BFAEA51CE5A6719A01083E26,
-				10E591083CA58EFFFD9799F6,
-			);
-			name = "AlgoliaSearch-Client-Swift";
-			path = "AlgoliaSearch-Client-Swift";
-			sourceTree = "<group>";
-		};
-		E23DA86C1A9289D3334EC531 = {
-			isa = PBXGroup;
-			children = (
-				BC65BAB53D370B08CCAC4BF4,
-				59C922F90BD429A2FC941341,
-				E86004642A193338EAAAAFD6,
-				3FA19B3C3AC1D8B428ED8EF0,
-				EDDEAD592FD9CD0A85DDEEE2,
-				D3D043419E6FD6DB94E66162,
-				C926971732CBE78BE4426FAB,
-				3FB214EB495E0558AB3C0A64,
-				6D75FD0D84788AAF0E112539,
-				0AF89747E7648F4D0D80774B,
-				8EC8B769A715BB36CA8605CE,
+				88CA73F3A4371674B84197112ACBC9A8 /* Info.plist */,
+				F57C17BC19E4D9C0616206D6727E02C6 /* Pods-Call It Magic.modulemap */,
+				609B1665F70B15D886D691518ADA3ECC /* Pods-Call It Magic-acknowledgements.markdown */,
+				16C4E83ED688894E89A5CFFFA6A2D0E2 /* Pods-Call It Magic-acknowledgements.plist */,
+				BED6E9E0B2608DF8A22A4A4C730479CA /* Pods-Call It Magic-dummy.m */,
+				A84BA9758BC61B94BED44CF5BD04AF2A /* Pods-Call It Magic-frameworks.sh */,
+				D77B6998E807A513B007301BB569A25A /* Pods-Call It Magic-resources.sh */,
+				375F93381F898180B423E8B6D56B078F /* Pods-Call It Magic-umbrella.h */,
+				63AB0138F54FF8B92EECED4C2D038A38 /* Pods-Call It Magic.debug.xcconfig */,
+				728CB9D4CD5D1ECB85361E954F74B72F /* Pods-Call It Magic.release.xcconfig */,
 			);
 			name = "Pods-Call It Magic";
 			path = "Target Support Files/Pods-Call It Magic";
 			sourceTree = "<group>";
 		};
-		E57842D4ED914C6D6B66D883 = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				40A55BDCDA656503E58A5B3A,
-				A5ACE953CE0D081A71C9832F,
-				B1A5372C69591C8B9F638C65,
-				691D372ABAAE85F476B89127,
-				224753C8D0A99B1ADDFDC572,
-				D674BBA693CBD611156B98B9,
-				519013811D4EB4ED517D5403,
-				99E4402A7894322475571AB8,
-				7F2AB49A3D151588B682E35B,
-				AC7060DB9A208892F6DE0BE0,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				CE43FB68616C3C83D5164876E384115C /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F7147AAF2A48008FF83EF3C59375BE44 /* Targets Support Files */,
 			);
-			name = PureLayout;
-			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		A248F3398EF2C4D1BEEC694DFFECE67B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61FF1041D4D76E73E378B45E6CB7C146 /* Info.plist */,
+				42CD872CC115A0816A21BEA8FD54531C /* SnapKit.modulemap */,
+				24CF19E04129F827C46E4D556470E89F /* SnapKit.xcconfig */,
+				6DCF007A22E91D2772DCEE9FA97DE861 /* SnapKit-Private.xcconfig */,
+				D367D337E0670CA623B6F343C738D610 /* SnapKit-dummy.m */,
+				463EA3D7F02A7814727199C961AB8F13 /* SnapKit-prefix.pch */,
+				413D4C68BCDED964834146EFB422C3B3 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		A9DC90184885EB76A9739077FF10334C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C98249A0D5A79ABE43A5E61D5242B25 /* Foundation.framework */,
+				F570B556E8B77BB07794FFFF082792F2 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9F48C5ED4B1E8C18219AC7D39AB75D /* AlgoliaSearch.framework */,
+				E176F316F08557E0203161A0437F32EA /* Haneke.framework */,
+				D947C51AB71B8DFB714B6C761B37CBF7 /* Pods_Call_It_Magic.framework */,
+				34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */,
+				3DBD3F68F708AA6E6115CA4B4FCA0258 /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE43FB68616C3C83D5164876E384115C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				424F89410105E5E6922E694A1A934AD1 /* AlgoliaSearch-Client-Swift */,
+				598E7E8D41BD72D7C2DDA00F988B89F9 /* Haneke */,
+				6768A0388A32CF44918CFCA70BA3661F /* PureLayout */,
+				F9AFB2D11DB3E8E695E2DD6C743E8466 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1B7AF98BFD1D8B40201480554D8C33B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				50FEF8EE3C99088012F547E9EF6CC0DD /* AlgoliaSearch-Client-Swift.modulemap */,
+				7696AA50C4BCD1DCF600E9396CBBF7BD /* AlgoliaSearch-Client-Swift.xcconfig */,
+				C55B3341689D5FECB265B0C7644D0EB0 /* AlgoliaSearch-Client-Swift-Private.xcconfig */,
+				FB2D9E072A24290B76AEACACB26CD8C3 /* AlgoliaSearch-Client-Swift-dummy.m */,
+				42ED0AB350E4E18A6FC6AE0D8DED061B /* AlgoliaSearch-Client-Swift-prefix.pch */,
+				97CF1289B527C7496D76769DE35B4C51 /* AlgoliaSearch-Client-Swift-umbrella.h */,
+				B32F546D38F0A66A6C0C17CD5F41D5D8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlgoliaSearch-Client-Swift";
+			sourceTree = "<group>";
+		};
+		F7147AAF2A48008FF83EF3C59375BE44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C9ADF30D855EFF325D06CAB85735595 /* Pods-Call It Magic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F9AFB2D11DB3E8E695E2DD6C743E8466 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2B0270ACC0A1AAAC0088467BF0131477 /* Constraint.swift */,
+				799F700E0350C1622AF654FBAC56DC3E /* ConstraintAttributes.swift */,
+				EDC6726B2AA1DAAC6F94E1FF507AE34F /* ConstraintDescription.swift */,
+				F79B446D865CE125AC740FDABBA29405 /* ConstraintItem.swift */,
+				E11A7B60D7208B393697E6DBAC0309DA /* ConstraintMaker.swift */,
+				79D7963F02D79E7AF9280CB2426B041D /* ConstraintRelation.swift */,
+				CA6701D0395AA53671F30906FDA34B59 /* Debugging.swift */,
+				0A76927A838B74013DE81260B84691E9 /* EdgeInsets.swift */,
+				DB44D45A9A34C20A034D0D004999B563 /* LayoutConstraint.swift */,
+				6E13811703F4D15A85A9D2260B00A6A8 /* SnapKit.swift */,
+				2A5B605BCB86C161823225245B5EDBB7 /* View+SnapKit.swift */,
+				A00F6A7822756001C1AC412B0A1751A8 /* ViewController+SnapKit.swift */,
+				A248F3398EF2C4D1BEEC694DFFECE67B /* Support Files */,
+			);
+			path = SnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A354F0AADD08D3C26B57E18 = {
+		01944A59FB637CED2EA2EC6551F066D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B536DE68100742EA71280D,
+				85E0A62EDF1B29F208623993EB92D9E7 /* SnapKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		27ADBFF08B54580C58A21126 = {
+		2183D3523C1317ECD0AD216B7F13FDDC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C620AAF1EA4524895BBEE5F,
-				33FE7FD5EAC1C93AF50B6AAB,
-				4C7C47F03FD2704F1F1C0F26,
-				200217B71C652478B9E784E6,
-				585A2030A0F9F4636EC2D00F,
-				67603B1D4E8F4F4F41CEC6D5,
-				A4621944AE669DF7A851FD44,
-				5E9055E54D087E95478B22F3,
-				3F02E653A7FEBA7F568DDC03,
-				8A8A8C578ED189F8EB41A0DA,
+				721C32C8FB7102FB10E4D22F86E9F2C7 /* AlgoliaSearch-Client-Swift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E015378F391B7604DB80D9E = {
+		B5097B6421A0552ABFED16285F172F58 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4640F57AA5E81B603001C065,
-				628D08AB00FD41B193518103,
-				25B766EDA2A0B118ABD2E0C1,
-				8E1B4B62BC64FE774E8205EE,
-				1642F5CAAEDA5F937803D319,
-				C7D79BDE23CDF3023689E720,
-				1ECFD1AA224296D436C51E9B,
+				F405A7F668D06EA2AD988287225AF467 /* Pods-Call It Magic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6BE2CED60CD3A0480E43B925 = {
+		C82855AACCA4A4AEB9419AFD5BAA0519 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6D4ABB1F9DE186701ADC7DF,
+				C77E399C8BFED042D1EBB0B02EF3F58E /* HNKCache.h in Headers */,
+				437CC4D4E1F7AB8B7BFCE006077304AA /* HNKDiskCache.h in Headers */,
+				CF78BD5A336D2E654DEBA1491C936521 /* HNKDiskFetcher.h in Headers */,
+				707AD145EA7F0B49E46F15A428DC09F2 /* HNKNetworkFetcher.h in Headers */,
+				035F78E3E4BD07AA7B17031EA6171BE0 /* HNKSimpleFetcher.h in Headers */,
+				AC2CEB47441383F2DBCAD1E6C719EBEB /* Haneke-umbrella.h in Headers */,
+				4504040E60C4E397658AFFAA52084018 /* Haneke.h in Headers */,
+				FAFA3F28A91452C9545161B0980442E3 /* UIButton+Haneke.h in Headers */,
+				782710BC583816BAC5D69FC695C1C486 /* UIImageView+Haneke.h in Headers */,
+				3713766095980E33C9D5FE12DA67E95E /* UIView+Haneke.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC7148C10CAE4A7F0EF6EF84 = {
+		D6A8EB0B19838A8E6F05524B3A33BF15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD16D3C76E23171BC8416773,
+				C07804D5CAE775845193B0BDEAE8153A /* ALView+PureLayout.h in Headers */,
+				6354BF1C514445C33F9B65DD18205535 /* NSArray+PureLayout.h in Headers */,
+				E822E9813D45FF34F11862731B65F4D7 /* NSLayoutConstraint+PureLayout.h in Headers */,
+				38792B4D4276C59B21ACF9B4DE6ED4F5 /* PureLayout+Internal.h in Headers */,
+				8FB29797E35802BE65A888432368F471 /* PureLayout-umbrella.h in Headers */,
+				98DE61629DE81688A6D460FF03DD172A /* PureLayout.h in Headers */,
+				F9A3864238BEAF7F67E75EF7417D7AF4 /* PureLayoutDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CF0734CE0B8FCD3DE14C8AB = {
+		4EDA452517A913B556C7860F490D5FD3 /* SnapKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9DE0524CF2800BDD5EAD5BD;
+			buildConfigurationList = 0FC2119A384FC151A822EB3716190E51 /* Build configuration list for PBXNativeTarget "SnapKit" */;
 			buildPhases = (
-				17C680CAE37149DDE64A2515,
-				0EBC723FE556F3785902B444,
-				AC7148C10CAE4A7F0EF6EF84,
+				C630CCB4E42A6252953FB60F9FE5A247 /* Sources */,
+				50CF6B736D50128C4E5CFE912E79B7A1 /* Frameworks */,
+				01944A59FB637CED2EA2EC6551F066D4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Call It Magic-SnapKit";
-			productName = "Pods-Call It Magic-SnapKit";
-			productReference = 2A73F1F12D61394B21E24F1C;
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 3DBD3F68F708AA6E6115CA4B4FCA0258 /* SnapKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3F8B502981FD27D748041DD4 = {
+		4F59A338C8D57A5F78B58C83A567DCDD /* Haneke */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9B58A955631FA41EE8E7AE4;
+			buildConfigurationList = CDD34B1425F454EDFA64713E472A9077 /* Build configuration list for PBXNativeTarget "Haneke" */;
 			buildPhases = (
-				AE780FB514BFAAE88E45C38F,
-				3F27E7C7C7639C6641AC8E66,
-				6BE2CED60CD3A0480E43B925,
+				11894B54CB0EE396F3EDAE968AFEE361 /* Sources */,
+				F1ABDE45D52B23EDF1A63232C0CF85B2 /* Frameworks */,
+				C82855AACCA4A4AEB9419AFD5BAA0519 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Call It Magic-AlgoliaSearch-Client-Swift";
-			productName = "Pods-Call It Magic-AlgoliaSearch-Client-Swift";
-			productReference = FF0192B60E57FD8AB75BA36F;
+			name = Haneke;
+			productName = Haneke;
+			productReference = E176F316F08557E0203161A0437F32EA /* Haneke.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		547E8AE74BCDDDD458CDD67C = {
+		7153EA7AACE4E784FE0BD0BA3618A3D6 /* Pods-Call It Magic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E40591CA324BB31575929C4A;
+			buildConfigurationList = 0FEE141A9442AEB0CD470729E9DF773D /* Build configuration list for PBXNativeTarget "Pods-Call It Magic" */;
 			buildPhases = (
-				405D007A95EA7BECF0308959,
-				4B1140F25F7B3073DC3DC0B0,
-				1A354F0AADD08D3C26B57E18,
+				3021C55FFC998519C1642B1706EC04F9 /* Sources */,
+				0E49307FB0E4A7033F9E52C846986F32 /* Frameworks */,
+				B5097B6421A0552ABFED16285F172F58 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2ED202819731C68BE87BDF9,
-				AA88A4917D7F922D57336835,
-				CE670CDFFA2F5C7F1DD3561D,
-				8F6D8808ADBEDB160CCC4E8E,
+				CE3E26F27FE09C9B2650E93CD51A4333 /* PBXTargetDependency */,
+				41813AFB6766C09B2477C51F3909F151 /* PBXTargetDependency */,
+				870782D87745B4666F8A2E0F1D5EB055 /* PBXTargetDependency */,
+				374A3E20A9D0F3B0BA70C017F553496E /* PBXTargetDependency */,
 			);
 			name = "Pods-Call It Magic";
 			productName = "Pods-Call It Magic";
-			productReference = 07EEBF39DD61E33E9796BBAF;
+			productReference = D947C51AB71B8DFB714B6C761B37CBF7 /* Pods_Call_It_Magic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		764CB9CA2507579FC0D814DD = {
+		8240A687A12B3496C485DFBEB80E79E2 /* PureLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A865FD16219DBD65E6A76541;
+			buildConfigurationList = 29946541803109559D5B69F86E5F2398 /* Build configuration list for PBXNativeTarget "PureLayout" */;
 			buildPhases = (
-				E06FD2BE2C364FA01A16C14D,
-				3B7E4805E6A3949349D3EB75,
-				5E015378F391B7604DB80D9E,
+				ABBB6E4260C5266FB8BA4EC731A8D281 /* Sources */,
+				8D982826564F33040944F955F4866DBD /* Frameworks */,
+				D6A8EB0B19838A8E6F05524B3A33BF15 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Call It Magic-PureLayout";
-			productName = "Pods-Call It Magic-PureLayout";
-			productReference = 762D42142CA9258A97B0EC7C;
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 34BE0BA12096455AB6760CFDF1005D58 /* PureLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		7B55B30EEF14F1F28BE63CCA = {
+		913F01F2BA8FE4D17FAF3BEE7C7A6E2F /* AlgoliaSearch-Client-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAA9570A5E669661D9321AA2;
+			buildConfigurationList = A28B6845E989461C8EC0636749E7D5B2 /* Build configuration list for PBXNativeTarget "AlgoliaSearch-Client-Swift" */;
 			buildPhases = (
-				AB81D9678CD4E55BCC6F354B,
-				8521C54A34E7AC2CB9936003,
-				27ADBFF08B54580C58A21126,
+				C568A5F34088631C8456B146235F7848 /* Sources */,
+				9BA643FEFD2B178ADAFA58CA35010545 /* Frameworks */,
+				2183D3523C1317ECD0AD216B7F13FDDC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Call It Magic-Haneke";
-			productName = "Pods-Call It Magic-Haneke";
-			productReference = 3292A8D6839754E9FBD4B660;
+			name = "AlgoliaSearch-Client-Swift";
+			productName = "AlgoliaSearch-Client-Swift";
+			productReference = 9B9F48C5ED4B1E8C18219AC7D39AB75D /* AlgoliaSearch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A09430A0592B325986C5E965 = {
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 			};
-			buildConfigurationList = 13EFC9C941C21096530D2DB7;
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6370D8F2AC28F0A713B4E4AB;
-			productRefGroup = 8237FC967E03AB0BF159E7AA;
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
-				547E8AE74BCDDDD458CDD67C,
-				3F8B502981FD27D748041DD4,
-				7B55B30EEF14F1F28BE63CCA,
-				764CB9CA2507579FC0D814DD,
-				2CF0734CE0B8FCD3DE14C8AB,
+				913F01F2BA8FE4D17FAF3BEE7C7A6E2F /* AlgoliaSearch-Client-Swift */,
+				4F59A338C8D57A5F78B58C83A567DCDD /* Haneke */,
+				7153EA7AACE4E784FE0BD0BA3618A3D6 /* Pods-Call It Magic */,
+				8240A687A12B3496C485DFBEB80E79E2 /* PureLayout */,
+				4EDA452517A913B556C7860F490D5FD3 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		17C680CAE37149DDE64A2515 = {
+		11894B54CB0EE396F3EDAE968AFEE361 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDE78A441649F01E738AEF9D,
-				36DEC42C965DB33D12383CA7,
-				7CE22BF42BB4B7CEACF874EB,
-				DD0CDDEA398661278F44DE61,
-				DBF954B73B1D17490616BEF6,
-				81E19607296AF48024F02E49,
-				611A7D186C7E6904A753F5A2,
-				3EDF28B6733D596A3A6C9EC3,
-				58D65C51797C00BD38AE0664,
-				7BC090461E23B9F253FE2B91,
-				8B2C6613759C4D4B04ADBD60,
-				E42FABF5B83BF7DB6AE61318,
-				58D9066216D97B9154BF9BF1,
+				091DD303842BAA33C1928E96CB768E6B /* HNKCache.m in Sources */,
+				478C1CBF5A6885EFAADBC5DB874DA573 /* HNKDiskCache.m in Sources */,
+				8A0458CE472A2622116778685229911E /* HNKDiskFetcher.m in Sources */,
+				B288EB0BC836E6B9FFAF5714E7DFEE65 /* HNKNetworkFetcher.m in Sources */,
+				7F263EBF4C433183168EF0B2E14C1BD1 /* HNKSimpleFetcher.m in Sources */,
+				9DA27DA23022D9A927012BF5200F1194 /* Haneke-dummy.m in Sources */,
+				91502F9112AF89303EFC5422A5FCD078 /* UIButton+Haneke.m in Sources */,
+				681FE496594744E1E20C0BDA1D1CA66E /* UIImageView+Haneke.m in Sources */,
+				56A8D8DF6EEF6B6AADFACF95E029B4E5 /* UIView+Haneke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		405D007A95EA7BECF0308959 = {
+		3021C55FFC998519C1642B1706EC04F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B8E14D70C48F369653865F0,
+				36ACBC4ED14F7639AF872A588FF25888 /* Pods-Call It Magic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB81D9678CD4E55BCC6F354B = {
+		ABBB6E4260C5266FB8BA4EC731A8D281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB51FEB1E6B921B62D6E231F,
-				36308C1565BD270FA8480A4C,
-				42C6C7C4FF7E5411E79248BD,
-				28DE5AF2F89A5ACDEDD7ECA7,
-				43EBAC096C4A5E7FAA886EE7,
-				56A72244CBA6CCB271DC6343,
-				596F14E3F45D3E1A7A2B82E9,
-				1CD7CE8794AAEA432D28B4AE,
-				6E898EAE043DE2AE04A80678,
+				40C283F04408D7C74CB6D9966B4CE10E /* ALView+PureLayout.m in Sources */,
+				2241ABC30538E46F17BC59AFC645B6C5 /* NSArray+PureLayout.m in Sources */,
+				8A42E3EC15CA6EFC7A14FF66419B4E0A /* NSLayoutConstraint+PureLayout.m in Sources */,
+				BEEF2FF4434A311B51CCAEA2D0BC4167 /* PureLayout-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE780FB514BFAAE88E45C38F = {
+		C568A5F34088631C8456B146235F7848 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7EBDF54027EEA33ABF3AFD,
-				7A0ADC78A3520BCADA85BBE0,
-				E8E6211C4C09EA8C9F757229,
-				AF2D23FB75D34CD310566238,
-				43A78FEA2E571B9853C00159,
-				E0C68321870E9824282ECEF7,
-				7DA63D51F1FE3B168EAFF273,
-				2B9487BC7CEA3E55670E8850,
+				32489188FB34057ADA75C39B7EF8AC28 /* AlgoliaSearch-Client-Swift-dummy.m in Sources */,
+				501F374B796E258597D3CD6A80EE8DAB /* Cache.swift in Sources */,
+				1E9C78EDB0C708746A2D159CAF4E0BC0 /* Client.swift in Sources */,
+				0F7E69FA43CE5A31D08816FA1C37E48B /* Helpers.swift in Sources */,
+				D6396F30374D89C92804D2E895883714 /* Index.swift in Sources */,
+				D424046F561DC68F90843281A813FCC1 /* Network.swift in Sources */,
+				2BE1BAC5D2CD3BA1A19E58DC2775C701 /* Query.swift in Sources */,
+				E5FDC164B991716147897B51085E44BC /* Type.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E06FD2BE2C364FA01A16C14D = {
+		C630CCB4E42A6252953FB60F9FE5A247 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E84E2DB3CFB56719ED2CCA,
-				9D091F8235881B78493ECDB8,
-				B0B9D5BC8068364B141BA962,
-				740C3ED7025371122E8B8973,
+				B12F19D2BD4393832C2CDEC13930A5E7 /* Constraint.swift in Sources */,
+				804B994DD42A6A3C3A324D5377F1FB97 /* ConstraintAttributes.swift in Sources */,
+				9D7C9A631C0EB1530C0DCFA887618587 /* ConstraintDescription.swift in Sources */,
+				22146A3B71EE47900269447075267D49 /* ConstraintItem.swift in Sources */,
+				604AC93637F2CBB5D54D0950C2E56CBA /* ConstraintMaker.swift in Sources */,
+				726CC8949AD9DB523732F497AEF566A0 /* ConstraintRelation.swift in Sources */,
+				84ED7FEBE3F346BEA288422986F53438 /* Debugging.swift in Sources */,
+				B2B8DA274F8F397158E9D33FFE049FFD /* EdgeInsets.swift in Sources */,
+				86D7CDF1DF0E7F8EF6B64A3D2DE329B7 /* LayoutConstraint.swift in Sources */,
+				6BFDEC714855D29F024742DA5E9DBFB5 /* SnapKit-dummy.m in Sources */,
+				1A089D36CCCBDD881CCD45446954B371 /* SnapKit.swift in Sources */,
+				3C82DAC4A708FB34E8EA66C82D08EAA2 /* View+SnapKit.swift in Sources */,
+				EDD147D64BC86E5198D4E99B05028490 /* ViewController+SnapKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8F6D8808ADBEDB160CCC4E8E = {
+		374A3E20A9D0F3B0BA70C017F553496E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Call It Magic-SnapKit";
-			target = 2CF0734CE0B8FCD3DE14C8AB;
-			targetProxy = ADE0BFB6553A662B7305D03F;
+			name = SnapKit;
+			target = 4EDA452517A913B556C7860F490D5FD3 /* SnapKit */;
+			targetProxy = 82B0BCCF1D6970D1709010BF4E8F5C1E /* PBXContainerItemProxy */;
 		};
-		AA88A4917D7F922D57336835 = {
+		41813AFB6766C09B2477C51F3909F151 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Call It Magic-Haneke";
-			target = 7B55B30EEF14F1F28BE63CCA;
-			targetProxy = EB4CFD47C4EB4DF0B373FCDE;
+			name = Haneke;
+			target = 4F59A338C8D57A5F78B58C83A567DCDD /* Haneke */;
+			targetProxy = 307F3C2DAFE650F0119B88C01C7AF232 /* PBXContainerItemProxy */;
 		};
-		CE670CDFFA2F5C7F1DD3561D = {
+		870782D87745B4666F8A2E0F1D5EB055 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Call It Magic-PureLayout";
-			target = 764CB9CA2507579FC0D814DD;
-			targetProxy = 5356835CA7CEFF364B8C4E5C;
+			name = PureLayout;
+			target = 8240A687A12B3496C485DFBEB80E79E2 /* PureLayout */;
+			targetProxy = 9E5188E86250BD66D829A24FC9FC13E0 /* PBXContainerItemProxy */;
 		};
-		D2ED202819731C68BE87BDF9 = {
+		CE3E26F27FE09C9B2650E93CD51A4333 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-Call It Magic-AlgoliaSearch-Client-Swift";
-			target = 3F8B502981FD27D748041DD4;
-			targetProxy = 86CFE58D8603B238C74DE8A1;
+			name = "AlgoliaSearch-Client-Swift";
+			target = 913F01F2BA8FE4D17FAF3BEE7C7A6E2F /* AlgoliaSearch-Client-Swift */;
+			targetProxy = 532ABC2162E8E98ADF7DBF68CCA61394 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		033DAB3FA797452D3EF61C03 = {
+		0E56226611B768683E00D27A28CBBF13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9741DCF732458D6AD6BC34C0;
+			baseConfigurationReference = C55B3341689D5FECB265B0C7644D0EB0 /* AlgoliaSearch-Client-Swift-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.4.2;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-Haneke/Pods-Call It Magic-Haneke-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-Haneke/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AlgoliaSearch-Client-Swift/AlgoliaSearch-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlgoliaSearch-Client-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-Haneke/Pods-Call It Magic-Haneke.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Haneke;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlgoliaSearch-Client-Swift/AlgoliaSearch-Client-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AlgoliaSearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		1CD3775DC83522B8198E6459 = {
+		52DDF0B44994F7867E5C4DC843CEFC5B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A70A4E01CAB65FEB8AFC0BB;
+			baseConfigurationReference = 6DCF007A22E91D2772DCEE9FA97DE861 /* SnapKit-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0.13.0;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.13.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-SnapKit/Pods-Call It Magic-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-SnapKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-SnapKit/Pods-Call It Magic-SnapKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = SnapKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1F62ED9CD9DD0BCCD88D3987 = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40526A6E082FDFE0711F2952;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift/Pods-Call It Magic-AlgoliaSearch-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift/Pods-Call It Magic-AlgoliaSearch-Client-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AlgoliaSearch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1718,157 +790,24 @@
 			};
 			name = Debug;
 		};
-		3D918E7E252DC85DED3F593E = {
+		59F896EDCA715CB2A0C798F1C296C021 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9741DCF732458D6AD6BC34C0;
+			baseConfigurationReference = C3700F09F55A902C8813C575F113D9E0 /* PureLayout-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3.0.1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-Haneke/Pods-Call It Magic-Haneke-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-Haneke/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-Haneke/Pods-Call It Magic-Haneke.modulemap";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Haneke;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4CC3DD7A0592F60AE9E65F9A = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0AF89747E7648F4D0D80774B;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic/Pods-Call It Magic.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Call_It_Magic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5593D49B84040D1301C65B3D = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EC8B769A715BB36CA8605CE;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic/Pods-Call It Magic.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_Call_It_Magic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7C07167645A903FE680A0442 = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40526A6E082FDFE0711F2952;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift/Pods-Call It Magic-AlgoliaSearch-Client-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-AlgoliaSearch-Client-Swift/Pods-Call It Magic-AlgoliaSearch-Client-Swift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AlgoliaSearch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		89748259D99059DF3EB70CEF = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43EC9342F275641FC2809453;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-PureLayout/Pods-Call It Magic-PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-PureLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-PureLayout/Pods-Call It Magic-PureLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = PureLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -1876,9 +815,65 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Release;
+		};
+		69AF40203315DE7FF331AD228076C5EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C04A595A38EC95341016FE4562B90A /* Haneke-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Haneke/Haneke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haneke/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haneke/Haneke.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
 			name = Debug;
 		};
-		A941F23BED760CBC4C19A2B3 = {
+		6BF4AA112EC54474F2FE5EDC4C81FC4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 728CB9D4CD5D1ECB85361E954F74B72F /* Pods-Call It Magic.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic/Pods-Call It Magic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Call_It_Magic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1917,29 +912,52 @@
 			};
 			name = Debug;
 		};
-		B4397868CDA00A923C60CF62 = {
+		B1113B90AF3B278F5D7CE9AAC59F3AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A70A4E01CAB65FEB8AFC0BB;
+			baseConfigurationReference = 80C04A595A38EC95341016FE4562B90A /* Haneke-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-SnapKit/Pods-Call It Magic-SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-SnapKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Haneke/Haneke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Haneke/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-SnapKit/Pods-Call It Magic-SnapKit.modulemap";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Haneke/Haneke.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Haneke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C9BBC5A97A90AD47D04C85A92A314F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55B3341689D5FECB265B0C7644D0EB0 /* AlgoliaSearch-Client-Swift-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.4.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AlgoliaSearch-Client-Swift/AlgoliaSearch-Client-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlgoliaSearch-Client-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlgoliaSearch-Client-Swift/AlgoliaSearch-Client-Swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SnapKit;
+				PRODUCT_NAME = AlgoliaSearch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1949,7 +967,91 @@
 			};
 			name = Debug;
 		};
-		FAD8F7ACB8D5852120BB224A = {
+		D23359172E21CC296D219876C92B7F32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3700F09F55A902C8813C575F113D9E0 /* PureLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.0.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D248F910F3EFCD04BF6D963AA696B3A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DCF007A22E91D2772DCEE9FA97DE861 /* SnapKit-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.13.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.13.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F43ABD6CEB826DE9712424AD75BCF2BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AB0138F54FF8B92EECED4C2D038A38 /* Pods-Call It Magic.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic/Pods-Call It Magic.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Call_It_Magic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1969,9 +1071,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"RELEASE=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1985,95 +1085,64 @@
 			};
 			name = Release;
 		};
-		FD98454B29D5303C3EA9EC7E = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43EC9342F275641FC2809453;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Call It Magic-PureLayout/Pods-Call It Magic-PureLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-Call It Magic-PureLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Pods-Call It Magic-PureLayout/Pods-Call It Magic-PureLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = PureLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13EFC9C941C21096530D2DB7 = {
+		0FC2119A384FC151A822EB3716190E51 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A941F23BED760CBC4C19A2B3,
-				FAD8F7ACB8D5852120BB224A,
+				52DDF0B44994F7867E5C4DC843CEFC5B /* Debug */,
+				D248F910F3EFCD04BF6D963AA696B3A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A865FD16219DBD65E6A76541 = {
+		0FEE141A9442AEB0CD470729E9DF773D /* Build configuration list for PBXNativeTarget "Pods-Call It Magic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89748259D99059DF3EB70CEF,
-				FD98454B29D5303C3EA9EC7E,
+				F43ABD6CEB826DE9712424AD75BCF2BB /* Debug */,
+				6BF4AA112EC54474F2FE5EDC4C81FC4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9B58A955631FA41EE8E7AE4 = {
+		29946541803109559D5B69F86E5F2398 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F62ED9CD9DD0BCCD88D3987,
-				7C07167645A903FE680A0442,
+				D23359172E21CC296D219876C92B7F32 /* Debug */,
+				59F896EDCA715CB2A0C798F1C296C021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9DE0524CF2800BDD5EAD5BD = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4397868CDA00A923C60CF62,
-				1CD3775DC83522B8198E6459,
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E40591CA324BB31575929C4A = {
+		A28B6845E989461C8EC0636749E7D5B2 /* Build configuration list for PBXNativeTarget "AlgoliaSearch-Client-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4CC3DD7A0592F60AE9E65F9A,
-				5593D49B84040D1301C65B3D,
+				C9BBC5A97A90AD47D04C85A92A314F89 /* Debug */,
+				0E56226611B768683E00D27A28CBBF13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAA9570A5E669661D9321AA2 = {
+		CDD34B1425F454EDFA64713E472A9077 /* Build configuration list for PBXNativeTarget "Haneke" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				033DAB3FA797452D3EF61C03,
-				3D918E7E252DC85DED3F593E,
+				69AF40203315DE7FF331AD228076C5EC /* Debug */,
+				B1113B90AF3B278F5D7CE9AAC59F3AA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A09430A0592B325986C5E965;
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 }
